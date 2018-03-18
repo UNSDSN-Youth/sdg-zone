@@ -1,0 +1,26 @@
+# Site settings
+baseurl = "http://sdgzone.com"
+languageCode = "en-us"
+title = "SDG ZONE"
+# Enter your tracking code to enable Google Analytics
+
+contentdir = "content"
+datadir = "data"
+layoutdir = "layouts"
+publishdir = "public"
+
+[params]
+    # Meta
+    title = "SDG Zone"
+    author = "Sophia Huynh"
+    description = "A portal made by UN SDSN Youth."
+    keywords = "Hugo, Hugo theme, grid theme, bookmarks, collection"
+
+    # Body background color
+    bodybgcolor = "#ffffff"
+
+
+    # Footer text
+    footertext = "United Nations Sustainable Development Solutions Network Youth"
+    
+    

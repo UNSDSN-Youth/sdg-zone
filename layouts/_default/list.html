@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title>SDG ZONE</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        {{ partial "head.html" . }}
+    </head>
+    <body>
+            <div id="wrapper">
+                    <!-- Header -->
+					<header id="header">
+                            <div class="inner">
+                                    {{ partial "header.html" . }}
+                            </div>
+                    </header>
+                    
+                    {{ partial "menu.html" . }}
+
+
+                    <div id="main">
+                        <div class="single-inner">
+                                <div class="list-pages">
+                                    <div class="list-title">
+                                        {{.Content}}
+                                    </div>
+                                        
+                                    {{ range sort .Pages.ByDate }}
+                                    <ul>
+                                        <div class="list-item-title">
+                                                <b><a href="{{.URL}}">{{.Title}}</a></b>
+                                        </div>
+                                            {{ .Render "summary" }}
+                                    </ul>
+                                    {{ end }}
+                                </div>
+                        </div>
+                    </div>
+
+                    <!-- Footer -->
+                    <footer id="footer">
+                        <div class="inner">
+                                {{ partial "footer.html" . }}
+                        </div>
+                    </footer>
+                </div>  
+            </div>
+      <!-- Scripts -->
+        {{ partial "scripts.html" . }}
+
+    </body>
+</html>
