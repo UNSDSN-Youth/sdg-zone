@@ -19,7 +19,7 @@ Install Hugo (i.e. `brew install hugo`)
 
 ## License
 
-This project is licensed under the MIT License
+This project is licensed under the MIT License.
 
 ## Acknowledgments
 
