@@ -2665,6 +2665,20 @@
 		background-color: #717171;
 	}
 
+	@media screen and (max-width: 600px) {
+		.famous-quotes-slide > img {
+			display: none;
+		}
+
+		#banner h1 {
+			font-size: 1em;
+		}
+
+		.banner-inner {
+			width: 90%;
+		}
+	}
+
 /* Tiles */
 
 	#tiles {
@@ -2806,29 +2820,6 @@
 						margin-bottom: 0;
 					}
 
-			#tiles article.style1 > .image:before {
-				background-color: #f2849e;
-			}
-
-			#tiles article.style2 > .image:before {
-				background-color: #7ecaf6;
-			}
-
-			#tiles article.style3 > .image:before {
-				background-color: #7bd0c1;
-			}
-
-			#tiles article.style4 > .image:before {
-				background-color: #c75b9b;
-			}
-
-			#tiles article.style5 > .image:before {
-				background-color: #ae85ca;
-			}
-
-			#tiles article.style6 > .image:before {
-				background-color: #8499e7;
-			}
 
 			body:not(.is-touch) #tiles article:hover > .image {
 				-moz-transform: scale(1.1);
@@ -2866,6 +2857,12 @@
 		body.is-touch #tiles article .content {
 			max-height: 15em;
 			opacity: 1;
+		}
+
+		@media screen and (max-width: 1800px) {
+			#tiles article > a > .content p {
+				font-size: 10pt;
+			}
 		}
 
 		@media screen and (max-width: 1280px) {
@@ -3305,19 +3302,28 @@
 		width: 100%;
 	}
 
+	.pagination-buttons * .button {
+		color: #585858 !important;
+		box-shadow: none;
+		text-decoration-line: underline;
+		text-decoration-style: dashed;
+		text-decoration-color: #717171;
+		padding-bottom: 5px;
+	}
+
 	.pagination-buttons .prev .button {
 		float: left;
 		left: 0;
-		color: #585858 !important;
-		box-shadow: inset 0 0 0 2px #d8d8d8;
 	}
 
 	.pagination-buttons .next .button {
 		float: right;
 		right: 0;
 		color: #585858 !important;
-		box-shadow: inset 0 0 0 2px #d8d8d8;
+		box-shadow: none;
+
 	}
+
 
 /* List files */
 
