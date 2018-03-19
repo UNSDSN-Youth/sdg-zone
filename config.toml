@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "sdgzone.com"
+baseurl = "https://sdgzone.com/"
 languageCode = "en-us"
 title = "SDG ZONE"
 # Enter your tracking code to enable Google Analytics
@@ -23,3 +23,5 @@ publishdir = "public"
     # Footer text
     footertext = "United Nations Sustainable Development Solutions Network Youth"
     
+
+  
