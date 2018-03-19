@@ -23,5 +23,5 @@ This project is licensed under the MIT License.
 
 ## Acknowledgments
 
-* This website was made for the United Nations Sustainable Development Solutions Network Youth Initiative
+This website was made for the United Nations Sustainable Development Solutions Network Youth Initiative
 
