@@ -4,4 +4,18 @@ date: 2018-03-13T15:00:29+11:00
 draft: false
 ---
 
-Coming soon!
+Now you know what the SDGs are - but you want to know how you can get involved to make sure they are achieved in your community. Why not join an organisation taking action for the SDGs in your community?
+ 
+{{< padding >}}
+SDSN Youth Member Organisations
+---
+
+{{< images src="/images/blog-images/member-orgs-screenshot.png" >}}
+
+
+SDSN Youth runs a membership program that is home to 600+ member organisations around the world. These organisations are youth-led and youth-focused groups taking action on the SDGs in all parts of the world - such as NGOs, university societies, and think tanks.
+
+To connect with them, feel free to visit their websites and social media pages, or drop them an email.
+ 
+A full list of member organisations, the SDGs they are working on, and their contact details can be found [on our website.](http://sdsnyouth.org/member-organizations/)
+
