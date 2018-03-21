@@ -2837,6 +2837,11 @@
 					opacity: 0;
 				}
 
+				body:not(.is-touch) #tiles article:hover > a > h3 {
+					display: none;
+					
+				}
+
 			body:not(.is-touch) #tiles article:hover .content {
 				max-height: 15em;
 				opacity: 1;
