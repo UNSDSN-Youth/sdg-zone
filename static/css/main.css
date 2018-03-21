@@ -2837,7 +2837,7 @@
 					opacity: 0;
 				}
 
-				body:not(.is-touch) #tiles article:hover > a > h3 {
+				body:not(.is-touch) #tiles article:hover > a > .tile-title {
 					display: none;
 					
 				}
