@@ -26,86 +26,18 @@
 						<div class="inner">
 							<section id="banner" class="major">
 								<div class="banner-inner">
+									{{ range $.Site.Data.quotes.quotes }}
 									<div class="famous-quotes-slide">
 										<div class="quote">
-											<h1>On September 25th 2015, countries adopted a set of goals to end poverty, <br>protect the planet and ensure prosperity for <br>all as part of a new sustainable development agenda.</h1>
+											<h1>{{.quote}}</h1>
 										</div>
-										<img src="images/landing-image.png"/>
+										<img src="{{.image}}"/>
 										<div class="author">
-											<b>Make a difference today.</b>
-											<p><br></p>
+											<b>{{.name}}</b>
+											<p>{{.title}}</p>
 										</div>
 									</div>
-									<div class="famous-quotes-slide">
-											<div class="quote">
-												<h1>"We live in a world in which many who are born poor will die poor. <br>It is up to us to be the first society to eradicate poverty and bring justice and equality to the most disenfranchised people on earth. <br>Our children have the right to equal opportunities; to thrive, to be happy, healthy, and safe."</h1>
-											</div>
-											<img src="images/famous-quote-images/shakira.jpg"/>
-											<div class="author">
-												<b>Shakira</b>
-												<p>Singer, UN Goodwill Ambassador</p>
-											</div>
-									</div>
-									<div class="famous-quotes-slide">
-											<div class="quote">
-												<h1>"We are the first generation that can end global poverty and at the same time we are the last generation that can reverse climate change. <br>If we don’t take action now, we will leave only regret to succeeding generations."</h1>
-											</div>
-											<img src="images/famous-quote-images/jack-ma.jpg"/>
-											<div class="author">
-												<b>Jack Ma</b>
-												<P>Executive Chairman Alibaba Group, Special Adviser to UN CTAD</p>
-											</div>
-									</div>
-									<div class="famous-quotes-slide">
-											<div class="quote">
-												<h1>"Promise that every child will have the right to safe, free and quality primary and secondary education. <br>This is the investment the world needs and what world leaders must do."</h1>
-											</div>
-											<img src="images/famous-quote-images/malala.jpg"/>
-											<div class="author">
-												<b>Malala Yousafzai</b>
-												<p>Children's Activist, Women's Rights Activist, UN Messenger of Peace</p>
-											</div>
-									</div>
-									<div class="famous-quotes-slide">
-											<div class="quote">
-												<h1>"It’s a definition that if it’s not renewable, it’s going to run out at some point, and we will have the choice of the collapse of civilization — and <br>into the Dark Ages we go — or we find something renewable."</h1>
-											</div>
-											<img src="images/famous-quote-images/elon-musk.jpg"/>
-											<div class="author">
-												<b>Elon Musk</b>
-												<p>CEO of SpaceX; CEO of Tesla, Inc. CEO of Neuralink</p>
-											</div>
-									</div>
-									<div class="famous-quotes-slide">
-											<div class="quote">
-												<h1>"The one thing about this wonderful planet is that we have - the home that we have - is that it can exist without us, we can't exist without it."</h1>
-											</div>
-											<img src="images/famous-quote-images/amina-j-mohammed.jpg"/>
-											<div class="author">
-												<b>Amina J. Mohammed</b>
-												<p>Deputy Secretary-General of the United Nations</p>
-											</div>
-									</div>
-									<div class="famous-quotes-slide">
-											<div class="quote">
-												<h1>"It’s a great opportunity for the developed world to really take stock of the differences that exist in average living conditions from what we <br>experience every day and dedicate ourselves to reducing that inequity."</h1>
-											</div>
-											<img src="images/famous-quote-images/bill-gates.jpg"/>
-											<div class="author">
-												<b>Bill Gates</b>
-												<p>Co-Founder Microsoft</p>
-											</div>
-									</div>
-									<!-- <div style="text-align:left">
-											<span class="dot" onclick="currentSlide(1)"></span> 
-											<span class="dot" onclick="currentSlide(2)"></span> 
-											<span class="dot" onclick="currentSlide(3)"></span> 
-											<span class="dot" onclick="currentSlide(4)"></span> 
-											<span class="dot" onclick="currentSlide(5)"></span> 
-											<span class="dot" onclick="currentSlide(6)"></span> 
-											<span class="dot" onclick="currentSlide(7)"></span> 
-									</div> -->
-										
+									{{ end }}
 									<a href="#tiles" class="button">Get Started</a>
 								</div>
 							</section>
