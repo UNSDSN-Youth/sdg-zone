@@ -1,6 +1,6 @@
 ---
 title: "How is my country progressing on the SDGs?"
-date: 2018-03-11T17:00:29+11:00
+date: 2015-03-11T17:00:29+11:00
 draft: false
 ---
 
@@ -17,6 +17,7 @@ The UN Sustainable Development Solutions Network (SDSN) has developed the [SDG I
 {{< padding >}}
 {{< padding >}}
 
+*Explore the interactive regional dashboards created by SDSN Youth.*
 {{< tableau 
 id="viz1521696039944" 
 tableau-name="SDGIndex2017RegionalDashboards_DRAFT&#47;REGIONALDASHBOARDS" 

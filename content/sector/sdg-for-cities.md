@@ -1,6 +1,6 @@
 ---
 title: "How can cities contribute to SDGs?"
-date: 2018-03-14T13:00:29+11:00
+date: 2018-06-12T13:00:29+11:00
 draft: false
 ---
 

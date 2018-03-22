@@ -1,6 +1,6 @@
 ---
 title: "What are Sustainable Development Goals (SDGs)?"
-date: 2018-03-11T13:00:29+11:00
+date: 2015-03-11T13:00:29+11:00
 draft: false
 ---
 {{< images src="/images/blog-images/small-size-sdg-wheel.png" >}}
@@ -13,7 +13,7 @@ The Sustainable Development Goals (SDGs) are 17 ambitious objectives for a green
 
 **The journey begins...**
 
-The idea for the SDGs was born at the 2012 Rio+20 Summit in Brazil. At the summit, government leaders began creating a set of universal goals to tackle poverty, ill health, gender inequality and environmental degradation. The idea was to use the SDGs as a new agreement to replace the eight Millennium Development Goals (MDGs), which expired in 2015.
+The idea for the SDGs was born at the 2012 Rio+20 Summit in Brazil. At the summit, government leaders began creating a set of universal goals to tackle poverty, ill health, inequality and environmental degradation. The idea was to use the SDGs as a new agreement to replace the eight Millennium Development Goals (MDGs), which expired in 2015.
 
   
 
@@ -25,8 +25,7 @@ It took 3 years to design the goals and targets. Governments, businesses, commun
 
 **Birth of the goals**
 
-
-On  25 September 2015, after many years of discussion and consultation, all 193 countries finally agreed and signed the SDGs and make the commitment to achieve them by 2030. You can find the agreement on the [UN’s website](https://sustainabledevelopment.un.org/post2015/transformingourworld).
+On 25 September 2015, after many years of discussion and consultation, all 193 countries finally agreed and signed the SDGs and make the commitment to achieve them by 2030. You can find the agreement on the [UN’s website](https://sustainabledevelopment.un.org/post2015/transformingourworld).
 
   
 
@@ -38,7 +37,7 @@ The SDGs are sometimes referred to as the ‘Global Goals’ or ‘Agenda 2030�
 
 **New way of thinking**
 
-The SDGs are changing how we think about money, growth and profit. They see economic wellbeing as closely tied to social inclusion and environmental sustainability as closely interconnected.
+The SDGs are changing how we think about money, growth and profit. They see economic wellbeing, social inclusion and environmental sustainability as closely interconnected.
 
   
 
@@ -62,14 +61,13 @@ As the famous saying goes “you treasure what you measure”. Hence, the 17 Sus
 
 **Not just governments**
 
-Governments are not the only ones working on the SDGs. A huge number of NGOs are using the SDGs in planning and decision-making, and a growing number of private companies, city councils and universities are doing the same. It is also the responsibility of all people, as individuals, to make a contribution. 
-
+Governments are not the only ones working on the SDGs. A huge number of NGOs are using the SDGs in planning and decision-making, and a growing number of private companies, city councils and universities are doing the same. It is also the responsibility of all people, as individuals, to make a contribution.
 
   
 
 **The cost**
 
-Based on current estimates, the world will need around $3 billion (US dollars) per year to achieve the SDGs by 2030. That’s around 3% of the world economy.
+Based on current estimates, the world will need around $2.5 trillion (US dollars) per year to achieve the SDGs by 2030. That’s around 3% of the world economy.
 
   
 

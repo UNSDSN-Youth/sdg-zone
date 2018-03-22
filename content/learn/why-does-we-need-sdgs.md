@@ -1,8 +1,9 @@
 ---
 title: "Why do we need the SDGs?"
-date: 2018-03-11T14:00:29+11:00
+date: 2015-03-11T14:00:29+11:00
 draft: false
 ---
+
 
 The world has changed dramatically in the last two decades but there are four shifts that are particularly serious. Firstly, we are closer than ever to eradicating extreme poverty. Secondly, human societies are causing more damage than ever to the planet and the environment. Thirdly, inequality among and between countries is increasing. Finally, governance is becoming more complex, especially with the growing influence of technology (SDSN, Action Agenda Report 2014). Here are the facts:
 
@@ -31,13 +32,14 @@ The world has changed dramatically in the last two decades but there are four sh
 -   Each year, the world generates roughly 1.3 billion tons of waste, but that’s expected to soar to 4 billion tons by 2100. In the United State alone, about $200 billion a year is spent on solid waste management.
     
 -   Tens of thousands of species – including 25% of all mammals and 13% of birds – are now threatened with extinction. This is because of hunting, poaching, pollution, loss of habitat, the arrival of invasive species, and other human-caused problems.
+
     
 
  {{< padding >}} 
  {{< padding >}} 
   
 
-Today's problems will escalate quickly and dangerously if we do not urgently and radically change course. The Sustainable Development Goals (SDGs) give us a plan to fight these challenges. Find out how the SDGs will do this (link to next page).
+Today's problems will escalate quickly and dangerously if we do not urgently and radically change course. The Sustainable Development Goals (SDGs) give us a plan to fight these challenges.
 
 {{< youtube vimeo-id="39048998" >}}
 *Video credit: [Welcome Anthropocene](https://vimeo.com/anthropocene)*
