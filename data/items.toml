@@ -4,7 +4,7 @@ item = 1
 title = "What are the Sustainable Development Goals?"
 image = "images/homepage-boxes/green/pic01.jpg"
 icon = "images/homepage-boxes/icons/learn-1.png"
-description = "10 things you should know about the SDGs"
+description = "10 things you should know about the SDGs."
 url = "/learn/what-are-the-sdgs/"
 [[items]]
 category = "LEARN"
@@ -12,7 +12,7 @@ item = 2
 title = "Why do we need the SDGs?"
 image = "images/homepage-boxes/green/pic02.jpg"
 icon = "images/homepage-boxes/icons/learn-2.png"
-description = "What are the goals trying to achieve?"
+description = "Find out what the goals are trying to achieve."
 url = "/learn/why-do-we-need-sdgs"
 [[items]]
 category = "LEARN"
@@ -20,7 +20,7 @@ item = 3
 title = "How will the SDGs solve our problems?"
 image = "images/homepage-boxes/green/pic03.jpg"
 icon = "images/homepage-boxes/icons/learn-3.png"
-description = "5 reasons why having goals is important"
+description = "5 reasons why having goals is important."
 url = "/learn/how-will-sdg-solve-problems"
 [[items]]
 category = "LEARN"
@@ -28,7 +28,7 @@ item = 4
 title = "Has my government signed the SDGs?"
 image = "images/homepage-boxes/green/pic04.jpg"
 icon = "images/homepage-boxes/icons/learn-4.png"
-description = "Find out which countries have committed to the SDGs and what their governments say about them"
+description = "Find out which countries have committed to the SDGs and what their governments say about them."
 url = "/learn/is-my-gov-committed-to-sdgs"
 [[items]]
 category = "LEARN"
@@ -36,7 +36,7 @@ item = 5
 title = "How is my country progressing on the SDGs?"
 image = "images/homepage-boxes/green/pic05.jpg"
 icon = "images/homepage-boxes/icons/learn-5.png"
-description = "Check whether your country is on track to meeting the SDGs through the SDG Index"
+description = "Check whether your country is on track to meeting the SDGs."
 url = "/learn/my-country-and-sdgs"
 [[items]]
 category = "ENGAGE"
@@ -44,7 +44,7 @@ item = 1
 title = "How can I learn more about the SDGs?"
 image = "images/homepage-boxes/red/pic01.jpg"
 icon = "images/homepage-boxes/icons/engage-1.png"
-description = "SDG Academy offers free online courses on the SDGs."
+description = "SDG Academy offers free online courses that you can enrol in today."
 url = "/engage/how-can-i-learn"
 [[items]]
 category = "ENGAGE"
@@ -52,7 +52,7 @@ item = 2
 title = "How can I test my SDG knowledge?"
 image = "images/homepage-boxes/red/pic02.jpg"
 icon = "images/homepage-boxes/icons/engage-2.png"
-description = "Test and improve your knowledge on the SDGs"
+description = "Test and improve your knowledge of the SDGs."
 url = "/engage/how-can-i-test-my-knowledge"
 [[items]]
 category = "ENGAGE"
@@ -76,7 +76,7 @@ item = 5
 title = "What’s the latest news on SDGs?"
 image = "images/homepage-boxes/red/pic05.jpg"
 icon = "images/homepage-boxes/icons/engage-5.png"
-description = "Find out what’s been happening in the SDG space"
+description = "Find out what’s been happening in the SDG space."
 url = "/engage/latest-sdg-news"
 [[items]]
 category = "ACTION"
@@ -84,7 +84,7 @@ item = 1
 title = "How can I contribute to the SDGs?"
 image = "images/homepage-boxes/blue/pic01.jpg"
 icon = "images/homepage-boxes/icons/action-1.png"
-description = "Learn how you can make a difference in your everyday life"
+description = "Learn how you can make a difference in your everyday life."
 url = "/action/how-can-i-contribute"
 [[items]]
 category = "ACTION"
@@ -92,7 +92,7 @@ item = 2
 title = "Are there SDG projects I can learn from?"
 image = "images/homepage-boxes/blue/pic02.jpg"
 icon = "images/homepage-boxes/icons/action-2.png"
-description = "Discover innovative and inspirational solutions to the SDGs"
+description = "Discover innovative and inspirational solutions to the SDGs."
 url = "/action/sdg-projects-to-learn-from"
 [[items]]
 category = "ACTION"
@@ -100,7 +100,7 @@ item = 3
 title = "Which organizations are working on the SDGs in my city?"
 image = "images/homepage-boxes/blue/pic03.jpg"
 icon = "images/homepage-boxes/icons/action-3.png"
-description = "Find out who is taking action on the SDGs near you"
+description = "Find out who is taking action on the SDGs near you."
 url = "/action/local-orgs-in-my-city"
 [[items]]
 category = "ACTION"
@@ -108,15 +108,15 @@ item = 4
 title = "How can I engage with SDGs at my university?"
 image = "images/homepage-boxes/blue/pic04.jpg"
 icon = "images/homepage-boxes/icons/action-4.png"
-description = "Learn how you can work on the SDGs as a student"
-url = "/action/get-involved-on-campus"
+description = "Coming soon."
+url = ""
 [[items]]
 category = "ACTION"
 item = 5
 title = "How can I volunteer for the SDGs?"
 image = "images/homepage-boxes/blue/pic05.jpg"
 icon = "images/homepage-boxes/icons/action-6.png"
-description = "Find SDG-related volunteering opportunities"
+description = "Find SDG-related volunteering opportunities."
 url = "/action/how-can-i-volunteer"
 [[items]]
 category = "SECTOR"
@@ -124,7 +124,7 @@ item = 1
 title = "How can cities contribute to SDGs?"
 image = "images/homepage-boxes/yellow/pic01.jpg"
 icon = "images/homepage-boxes/icons/sector-1.png"
-description = "How local stakeholders can get started with implementing the SDGs in cities and human settlements"
+description = "Find out how cities can get started with implementing the SDGs."
 url = "/sector/sdg-for-cities"
 [[items]]
 category = "SECTOR"
@@ -132,7 +132,7 @@ item = 2
 title = "How can business contribute to SDGs?"
 image = "images/homepage-boxes/yellow/pic02.jpg"
 icon = "images/homepage-boxes/icons/sector-2.png"
-description = "How companies can align their strategy towards the SDGs, and measure and monitor their impact"
+description = "Find out how companies can align their strategy to the SDGs."
 url = "/sector/sdg-for-business"
 [[items]]
 category = "SECTOR"
@@ -140,7 +140,7 @@ item = 3
 title = "How can youth contribute to SDGs?"
 image = "images/homepage-boxes/yellow/pic03.jpg"
 icon = "images/homepage-boxes/icons/sector-3.png"
-description = "UN and SDGs: A Handbook for Youth explores the SDGs and the 2030 Agenda from a youth perspective"
+description = "A handbook that explores the SDGs from a youth perspective."
 url = "/sector/sdg-for-youth"
 [[items]]
 category = "SECTOR"
@@ -148,7 +148,7 @@ item = 4
 title = "How can schools contribute to SDGs?"
 image = "images/homepage-boxes/yellow/pic04.jpg"
 icon = "images/homepage-boxes/icons/sector-4.png"
-description = "A guide for education professionals on the use of Education for Sustainable Development (ESD) in learning for the SDGs."
+description = "Find out how schools can get started with implementing the SDGs."
 url = "/sector/sdg-for-schools"
 [[items]]
 category = "SECTOR"
@@ -156,5 +156,5 @@ item = 5
 title = "How can universities contribute to SDGs?"
 image = "images/homepage-boxes/yellow/pic05.jpg"
 icon = "images/homepage-boxes/icons/sector-5.png"
-description = "The key roles universities have in contributing to the SDGs and the benefits of becoming engaged."
+description = "Find out how universities can get started with implementing the SDGs."
 url = "/sector/sdg-for-uni"
