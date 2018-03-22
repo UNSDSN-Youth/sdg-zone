@@ -3665,3 +3665,19 @@ tableau .tableauPlaceholder {
 			}
 
 		}
+
+		@media screen and (max-width: 550px) {
+
+			#wrapper > * > .single-inner {
+				width: 80%;
+			}
+
+		}
+
+		@media screen and (max-width: 450px) {
+
+			#wrapper > * > .single-inner {
+				width: 90%;
+			}
+
+		}
