@@ -3340,6 +3340,7 @@
 	.pagination-buttons {
 		margin-top: 4em;
 		width: 100%;
+		
 	}
 
 	.pagination-buttons * .button {
@@ -3348,22 +3349,28 @@
 		text-decoration-line: underline;
 		text-decoration-style: dashed;
 		text-decoration-color: #717171;
-		padding-bottom: 5px;
+		word-wrap: inherit;
+		white-space: normal;
+		height: 100%;
 	}
 
 	.pagination-buttons .prev .button {
 		float: left;
+		text-align: left;
 		left: 0;
+		width: 40%;
+		word-wrap: normal;
 	}
 
 	.pagination-buttons .next .button {
 		float: right;
+		text-align: right;
 		right: 0;
 		color: #585858 !important;
 		box-shadow: none;
+		width: 40%;
 
 	}
-
 
 /* List files */
 
@@ -3419,6 +3426,10 @@
 
 			#footer > .inner > * > :last-child {
 				margin-bottom: 0;
+			}
+
+			#footer > .inner section > img {
+				height: 90px;
 			}
 
 			#footer > .inner section:nth-child(1) {
