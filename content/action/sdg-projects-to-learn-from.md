@@ -15,4 +15,6 @@ As part of the Youth Solutions platform, SDSN Youth publishes a yearly Youth Sol
 
 Find inspirational ideas and solutions here: 
 
-{{< button link="http://www.youthsolutions.report/" text="Youth Solutions Platform" >}}
+{{< images src="/images/blog-images/ysr-screenshot.png" link="http://www.youthsolutions.report/" >}}
+
+{{< button link="https://www.dropbox.com/sh/wmy6e70jtc54dyx/AACBslpzgFVyYUf9Nm3f-Vo3a?dl=0 " text="Solutions Posters" >}}
