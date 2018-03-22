@@ -3,6 +3,7 @@ title: "How can I volunteer for the SDGs?"
 date: 2017-05-12T18:00:29+11:00
 draft: false
 ---
+{{< images src="/images/blog-images/un-volunteers-logo.png" >}}
 
 
 Many of the Sustainable Development Goals call for long-term attitude and behaviour changes. Volunteers facilitate changes in mindsets by raising awareness or championing those changes and inspiring others.

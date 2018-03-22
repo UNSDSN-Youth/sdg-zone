@@ -46,7 +46,7 @@ In addition to the above, offset your remaining carbon emissions! You can calcul
 
 {{< padding >}}
 {{< padding >}}
-{{< images src="/images/blog-images/lazy-guide-art-1.png" >}}
+{{< images src="/images/blog-images/lazy-guide-art-2.png" >}}
 THINGS YOU CAN DO AT HOME
 ---
 
@@ -86,7 +86,7 @@ THINGS YOU CAN DO AT HOME
 
 {{< padding >}}
 {{< padding >}}
-{{< images src="/images/blog-images/lazy-guide-art-1.png" >}}\
+{{< images src="/images/blog-images/lazy-guide-art-3.png" >}}\
 THINGS YOU CAN OUTSIDE YOUR HOUSE
 ---
 -   Shop local. Supporting neighbourhood businesses keeps people employed and helps prevent trucks from driving far distances.
@@ -120,7 +120,7 @@ THINGS YOU CAN OUTSIDE YOUR HOUSE
 
 {{< padding >}}
 {{< padding >}}
-{{< images src="/images/blog-images/lazy-guide-art-1.png" >}}
+{{< images src="/images/blog-images/lazy-guide-art-4.png" >}}
 THINGS YOU CAN DO AT WORK
 ---
 -   If you have a fruit or snack that you don’t want, don’t throw it out. Give it away to someone who needs and is asking for help.

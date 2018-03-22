@@ -4,7 +4,7 @@ date: 2016-04-12T17:00:29+11:00
 draft: false
 ---
 
-{{< images src="/images/blog-images/iisd-logo.png" >}}
+{{< images src="/images/blog-images/knowledge-hub-image.png" >}}
  
 The world’s governments, NGOs and companies are still working out how to respond to the SDGs, and how to measure them. Keeping up with countries’ progress on the SDGs on a real-time basis can be vital in pushing for policies and identifying the greatest opportunities for advancement.
 
