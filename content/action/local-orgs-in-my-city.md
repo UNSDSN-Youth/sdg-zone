@@ -1,10 +1,10 @@
 ---
-title: "Are there local groups working on SDGs in my city?"
+title: "What organisations are working on the SDGs in my city?"
 date: 2018-03-13T15:00:29+11:00
 draft: false
 ---
 
-Now you know what the SDGs are - but you want to know how you can get involved to make sure they are achieved in your community. Why not join an organisation taking action for the SDGs in your community?
+Organisations around the world, many of which are led by youth, have been contributing to the implementation of the SDGs in a big way. Find organisations in your area that are working on the SDGs. 
  
 {{< padding >}}
 SDSN Youth Member Organisations
@@ -17,5 +17,7 @@ SDSN Youth runs a membership program that is home to 600+ member organisations a
 
 To connect with them, feel free to visit their websites and social media pages, or drop them an email.
  
-A full list of member organisations, the SDGs they are working on, and their contact details can be found [on our website.](http://sdsnyouth.org/member-organizations/)
+A full list of member organisations, the SDGs they are working on, and their contact details can be found on our website.
+
+{{< button link="http://sdsnyouth.org/member-organizations/" text="Find Organizations" >}}
 
