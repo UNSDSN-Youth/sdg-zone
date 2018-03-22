@@ -2486,7 +2486,9 @@
 		text-decoration: none;
 		text-overflow: ellipsis;
 		text-transform: uppercase;
-		white-space: nowrap;
+		word-wrap: inherit;
+		white-space: normal;
+		height: 100%;
 	}
 
 		input[type="submit"].icon:before,
@@ -2580,6 +2582,17 @@
 			-ms-pointer-events: none;
 			pointer-events: none;
 			opacity: 0.25;
+		}
+
+		@media screen and (max-width: 400px) {
+			input[type="submit"],
+			input[type="reset"],
+			input[type="button"],
+			button,
+			.button {
+				font-size: 0.6em;
+
+			}
 		}
 
 /* Banner */
