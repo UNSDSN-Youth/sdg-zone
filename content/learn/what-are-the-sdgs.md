@@ -80,7 +80,7 @@ Finally and most importantly, between now and 2030, there is an enormous amount 
 *Video credit: Project Everyone*
 
 
-{{< images src="/images/blog-images/sdg-postcard.png" >}}
+{{< images src="/images/blog-images/sdg-postcard.png" link="http://www.un.org/sustainabledevelopment/sustainable-development-goals/">}}
 
 
 **The Sustainable Development Goals (SDGs)**

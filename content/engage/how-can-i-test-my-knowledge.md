@@ -1,6 +1,6 @@
 ---
 title: "How can I test my SDG knowledge?"
-date: 2018-03-12T15:00:29+11:00
+date: 2018-03-12T14:00:29+11:00
 draft: false
 ---
 

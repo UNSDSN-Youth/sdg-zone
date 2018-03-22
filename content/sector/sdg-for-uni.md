@@ -1,6 +1,6 @@
 ---
 title: "How can universities contribute to SDGs?"
-date: 2018-03-14T16:00:29+11:00
+date: 2018-03-14T17:00:29+11:00
 draft: false
 ---
 
