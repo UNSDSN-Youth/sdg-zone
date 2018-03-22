@@ -10,6 +10,6 @@ The world’s governments, NGOs and companies are still working out how to respo
 
 {{< padding >}}
   
-The IISD hosts a [knowledge hub](http://sdg.iisd.org/) that tracks SDG-related news and announcements across the world - from summaries of new reports, to new initiatives, conferences and data sources. Each piece of news is tagged and classified by the SDGs that it relates to, making the site easily searchable. The site hosts policy briefs for turning thought into action, and invites guest contributors to present their ideas.
+The IISD hosts a {{< external-links src="http://sdg.iisd.org/" text="knowledge hub" >}} that tracks SDG-related news and announcements across the world - from summaries of new reports, to new initiatives, conferences and data sources. Each piece of news is tagged and classified by the SDGs that it relates to, making the site easily searchable. The site hosts policy briefs for turning thought into action, and invites guest contributors to present their ideas.
 
 {{< button link="http://sdg.iisd.org/" text="SDG Knowledge Hub" >}}
