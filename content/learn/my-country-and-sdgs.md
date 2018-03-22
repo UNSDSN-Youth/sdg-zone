@@ -4,6 +4,8 @@ date: 2015-03-11T17:00:29+11:00
 draft: false
 ---
 
+{{< images src="/images/blog-images/sdg-index-logo.png" >}}
+
 
 While the SDGs themselves are easy to understand, measuring progress on them is much more difficult.  
   

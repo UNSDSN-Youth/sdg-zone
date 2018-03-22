@@ -41,7 +41,7 @@ The world has changed dramatically in the last two decades but there are four sh
 
 Today's problems will escalate quickly and dangerously if we do not urgently and radically change course. The Sustainable Development Goals (SDGs) give us a plan to fight these challenges.
 
-{{< youtube vimeo-id="39048998" >}}
+{{< vimeo vimeo-id="39048998" >}}
 *Video credit: [Welcome Anthropocene](https://vimeo.com/anthropocene)*
 
 {{< button link="https://www.dropbox.com/sh/uxx7e1a87m96njs/AAC-gtYqrb8L8Npi9QoEYA2Sa?dl=0" text="Why it matters posters ">}}

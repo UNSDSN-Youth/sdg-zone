@@ -1,7 +1,7 @@
 [[items]]
 category = "LEARN"
 item = 1
-title = "What are the Sustainable Development Goals (SDGs)?"
+title = "What are the Sustainable Development Goals?"
 image = "images/homepage-boxes/green/pic01.jpg"
 icon = "images/homepage-boxes/icons/learn-1.png"
 description = "10 things you should know about the SDGs"
@@ -13,7 +13,7 @@ title = "Why do we need the SDGs?"
 image = "images/homepage-boxes/green/pic02.jpg"
 icon = "images/homepage-boxes/icons/learn-2.png"
 description = "What are the goals trying to achieve?"
-url = "/learn/why-does-we-need-sdgs"
+url = "/learn/why-do-we-need-sdgs"
 [[items]]
 category = "LEARN"
 item = 3
@@ -113,11 +113,11 @@ url = "/action/get-involved-on-campus"
 [[items]]
 category = "ACTION"
 item = 5
-title = "Webinars"
+title = "How can I volunteer for the SDGs?"
 image = "images/homepage-boxes/blue/pic05.jpg"
-icon = "images/homepage-boxes/icons/action-5.png"
-description = "Learn how people in the spotlight engage and make an impact on the SDGs."
-url = "/action/webinars"
+icon = "images/homepage-boxes/icons/action-6.png"
+description = "Find SDG-related volunteering opportunities"
+url = "/action/how-can-i-volunteer"
 [[items]]
 category = "SECTOR"
 item = 1

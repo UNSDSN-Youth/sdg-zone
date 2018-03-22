@@ -3323,6 +3323,11 @@
 		padding: 0em 0 6em 0 ;
 	}
 
+		#main > * > h1 {
+			text-align: center;
+
+		}
+
 		@media screen and (max-width: 736px) {
 
 			#main {

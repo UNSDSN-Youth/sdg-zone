@@ -10,17 +10,17 @@ quote = "Areas of poverty and extreme poverty, I learned, are not a natural stat
 image = "images/famous-quote-images/hugh-jackman.jpg"
 [[quotes]]
 name = "Malala Yousafzai"
-title = "Activist, Nobel Prize Laureate"
+title = "Activist, Nobel Peace Prize Laureate"
 quote = "Promise that every child will have the right to safe, free and quality primary and secondary education. This is the investment the world needs and what world leaders must do."
 image = "images/famous-quote-images/malala-yousafzai.jpg"
 [[quotes]]
 name = "Jet Li"
 title = "Martial Artist. Actor."
-quote = "Although we all share the same planet, not everyone can change the world in the same way and few individuals can change it by themselve"
+quote = "Although we all share the same planet, not everyone can change the world in the same way and few individuals can change it by themselves"
 image = "images/famous-quote-images/jet-li.jpg"
 [[quotes]]
 name = "Pope Francis"
-title = "The Pope."
+title = "His Holiness"
 quote = "We cannot permit ourselves to postpone 'certain agendas' for the future. The future demands of us critical and global decisions in the face of world-wide conflicts which increase the number of the excluded and those in need."
 image = "images/famous-quote-images/pope-francis.jpg"
 [[quotes]]
@@ -46,7 +46,7 @@ image = "images/famous-quote-images/emma-watson.jpg"
 [[quotes]]
 name = "Zhou Xun"
 title = "Actress"
-quote = "The SDGs set out 17 goals to create a world without poverty, which allows all boys and girls a decent education, and preserves our planet for future generations...These goals are for everyone, everywhere"
+quote = "The SDGs set out 17 goals to create a world without poverty, which allows all boys and girls a decent education, and preserves our planet for future generations...These goals are for everyone, everywhere."
 image = "images/famous-quote-images/zhou-xun.jpg"
 [[quotes]]
 name = "Forest Whitaker"
