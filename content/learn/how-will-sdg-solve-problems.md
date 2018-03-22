@@ -12,31 +12,31 @@ Here are 5 reasons why we need to set goals when solving complex global problems
   
 
 **1\. Goals give direction and focus**
-
+{{< padding >}}
 The world is plagued with many complex problems. According to American economist, Jeffrey Sachs, "it is very hard in our noisy, disparate, divided, crowded, congested, distracted, and often overwhelmed world to mount a consistent effort to achieve any of our common purposes. Adopting global goals helps individuals, organizations, and governments worldwide to agree on the direction – essentially, to focus on what really matters for our future." 
 
   
 
 **2\. Goals are easy to communicate**
-
+{{< padding >}}
 If we want to take action then we need people to understand what these problems are. Having clear goals will remind us of all our big challenges and will make it easier to raise awareness, educate the public and focus attention on the most urgent issues. 
 
   
 
 **3\. Goals encourage partnerships**
-
+{{< padding >}}
 Community leaders, politicians, government ministries, academics, nongovernmental organizations, religious groups, international organizations, donor organizations, and foundations will come together to tackle the common goals. This could lead to new and more meaningful partnerships, which are necessary to solve many of the problems that are at the heart of the SDGs. 
 
   
 
 **4\. Goals allow you to measure progress and improve results**
-
+{{< padding >}}
 Having clear goals, targets, and indicators, will allow us measure our progress and understand what is needed. Better information enables better action. Using information, we can plan our strategy more carefully, fill the gaps and solve the issues more effectively. 
 
   
 
 **5\. Goals create peer-pressure**
-
+{{< padding >}}
 Goals empower communities to put pressure on governments and businesses to act. Are they on track to achieve the goals that they signed up to? Are they falling behind compared to other countries? Asking these questions forces leaders to put more effort into solving these issues. 
 
 ## **“The global mobilization behind the Millennium Development Goals has resulted in the most successful anti-poverty movement in history”** UN Secretary General, Ban Ki-moon (2015)
