@@ -1,16 +1,15 @@
+
 <div class="prev">
-    {{ if .hasPrev }}
-    <a href="{{ $.Prev.Title }}" class="button small">{{ $.Prev.Title }}</a>
+    {{ if .PrevInSection }}
+    <a href="{{ .PrevInSection.URL }}" class="button small">←{{ .PrevInSection.Title }}</a>
     {{ else }}
-    <a href="{{ .Site.BaseURL }}" class="button small">HOME</a>
+    <a href="{{ .Site.BaseURL }}" class="button small">←HOME</a>
     {{ end }}
 </div>
 <div class="next">
-    {{ if .hasNext }}
-    <p>{{ $.Next.Title }}</p>
-    <a href="{{ $.Next.Title }}" class="button small">{{ $.Next.Title }}</a>
+    {{ if .NextInSection }}
+    <a href="{{ .NextInSection.URL }}" class="button small">{{ .NextInSection.Title }}→</a>
     {{ else }}
-    <a href="{{ $.Next.Title }}" class="button small">NEXT</a>
+    <a href="{{ .Site.BaseURL }}" class="button small">HOME→</a>
     {{ end }}
 </div>
-    
