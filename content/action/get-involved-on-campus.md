@@ -1,5 +1,5 @@
 ---
-title: "How do I get involved on campus?"
+title: "How can I engage with SDGs at my university?"
 date: 2018-03-13T17:00:29+11:00
 draft: false
 ---

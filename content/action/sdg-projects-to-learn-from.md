@@ -1,5 +1,5 @@
 ---
-title: "Are there examples of SDG projects I can learn from and replicate in my community?"
+title: "Are there SDG projects I can learn from?"
 date: 2018-03-13T16:00:29+11:00
 draft: false
 ---

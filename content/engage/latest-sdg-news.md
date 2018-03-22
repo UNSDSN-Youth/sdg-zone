@@ -1,5 +1,5 @@
 ---
-title: "How can I keep up with the latest news on SDGs?"
+title: "What’s the latest news on SDGs?"
 date: 2018-03-14T17:00:29+11:00
 draft: false
 ---

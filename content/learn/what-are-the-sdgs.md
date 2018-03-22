@@ -1,5 +1,5 @@
 ---
-title: "What are these Sustainable Development Goals (SDGs)?"
+title: "What are Sustainable Development Goals (SDGs)?"
 date: 2018-03-11T13:00:29+11:00
 draft: false
 ---
