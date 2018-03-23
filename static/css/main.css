@@ -3385,6 +3385,44 @@
 
 	}
 
+	@media screen and (max-width: 1000px) {
+
+		.pagination-buttons .prev .button, 
+		.pagination-buttons .next .button {
+			width: 45%;
+		}
+	}
+
+
+	@media screen and (max-width: 750px) {
+
+		.pagination-buttons .prev .button, 
+		.pagination-buttons .next .button {
+			width: 50%;
+		}
+
+	}
+
+	@media screen and (max-width: 620px) {
+
+		.pagination-buttons {
+			height: 100px;
+		}
+	}
+
+	@media screen and (max-width: 350px) {
+
+		.pagination-buttons {
+			height: 130px;
+		}
+
+		.pagination-buttons .prev .button, 
+		.pagination-buttons .next .button {
+			margin-bottom: 2em;
+			width: 100%;
+		}
+	}
+
 /* List files */
 
 	.list-pages > .list-title {
@@ -3670,7 +3708,7 @@ tableau .tableauPlaceholder {
 		padding: 0 2.5em;
 	}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 800px) {
 
 			#wrapper > * > .single-inner {
 				width: 75%;
@@ -3679,7 +3717,7 @@ tableau .tableauPlaceholder {
 
 		}
 
-		@media screen and (max-width: 550px) {
+		@media screen and (max-width: 750px) {
 
 			#wrapper > * > .single-inner {
 				width: 80%;
@@ -3687,10 +3725,11 @@ tableau .tableauPlaceholder {
 
 		}
 
-		@media screen and (max-width: 450px) {
+		@media screen and (max-width: 660px) {
 
 			#wrapper > * > .single-inner {
 				width: 90%;
 			}
 
 		}
+
