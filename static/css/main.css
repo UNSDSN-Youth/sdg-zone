@@ -3673,7 +3673,7 @@ tableau .tableauPlaceholder {
 		@media screen and (max-width: 736px) {
 
 			#wrapper > * > .single-inner {
-				width: 70%;
+				width: 75%;
 				padding: 0 1.25em;
 			}
 
