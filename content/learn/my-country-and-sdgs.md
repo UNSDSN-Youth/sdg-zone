@@ -9,7 +9,7 @@ draft: false
 
 While the SDGs themselves are easy to understand, measuring progress on them is much more difficult.  
   
-The UN Sustainable Development Solutions Network (SDSN) has developed the [SDG Index](http://www.sdgindex.org/) as an independent ‘Report Card’ for each country. A range of reports, [profiles for every country](https://www.dropbox.com/sh/yvgzn5o4t19xigc/AACaTlUCxuwAe46z7Mj7iGg8a?dl=0) and even the underlying raw data are freely available to download, in the spirit of transparency. SDSN Youth provides helpful visual country-by-country [SDG Dashboards](https://public.tableau.com/profile/anastasiya.kostomarova#!/vizhome/SDGIndex2017RegionalDashboards_DRAFT/REGIONALDASHBOARDS?publish=yes), using the data from the Index to compare and contrast progress to date. Find out how your country is progressing!
+The Sustainable Development Solutions Network (SDSN) and the Bertelsmann Stiftung have developed the [SDG Index](http://www.sdgindex.org/) as an independent ‘Report Card’ for each country. A range of reports, [profiles for every country](https://www.dropbox.com/sh/yvgzn5o4t19xigc/AACaTlUCxuwAe46z7Mj7iGg8a?dl=0) and even the underlying raw data are freely available to download, in the spirit of transparency. SDSN Youth provides helpful visual country-by-country [SDG Dashboards](https://public.tableau.com/profile/anastasiya.kostomarova#!/vizhome/SDGIndex2017RegionalDashboards_DRAFT/REGIONALDASHBOARDS?publish=yes), using the data from the Index to compare and contrast progress to date. Find out how your country is progressing!
 
   
 {{< padding >}}
