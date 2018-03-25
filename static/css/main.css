@@ -3349,6 +3349,16 @@
 
 		}
 
+	.box-less-buttons .button {
+		text-decoration-line: none;
+		text-decoration-style: dashed;
+		text-decoration-color: #717171;
+		box-shadow: none;
+		margin-bottom: 2em;
+		max-height: 1em;
+	}
+	
+
 /* Pagination */
 	.pagination-buttons {
 		margin-top: 4em;
