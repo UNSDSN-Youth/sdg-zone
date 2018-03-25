@@ -3349,11 +3349,15 @@
 
 		}
 
-	.box-less-buttons .button {
+	.box-less-buttons > .button {
 		text-decoration-line: none;
-		text-decoration-style: dashed;
-		text-decoration-color: #717171;
+		color: #585858 !important;
 		box-shadow: none;
+		word-wrap: inherit;
+		white-space: normal;
+	}
+
+	.box-less-buttons {
 		margin-bottom: 2em;
 		max-height: 1em;
 	}
