@@ -1,0 +1,13 @@
+public/
+static/.DS_Store
+static/css/.DS_Store
+static/images/.DS_Store
+static/images/blog-images/.DS_Store
+static/images/famous-quote-images/.DS_Store
+static/images/homepage-boxes/.DS_Store
+static/images/homepage-boxes/blue/.DS_Store
+static/images/homepage-boxes/green/.DS_Store
+static/images/homepage-boxes/red/.DS_Store
+static/js/.DS_Store
+themes/.DS_Store
+.DS_Store

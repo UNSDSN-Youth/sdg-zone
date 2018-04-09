@@ -60,8 +60,8 @@ item = 3
 title = "Where can I find SDG related opportunities?"
 image = "images/homepage-boxes/red/pic03.jpg"
 icon = "images/homepage-boxes/icons/engage-3.png"
-description = "Coming soon."
-url = ""
+description = "Find SDG relevant opportunities."
+url = "/engage/how-find-ops"
 [[items]]
 category = "ENGAGE"
 item = 4
