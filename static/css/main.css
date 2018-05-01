@@ -51,6 +51,8 @@
 		-webkit-text-size-adjust: none;
 	}
 
+
+
 /* Box Model */
 
 	*, *:before, *:after {
@@ -2996,6 +2998,11 @@
 				line-height: 1.65em;
 				margin-right: 0.325em;
 				padding: 0 0.125em 0 0.375em;
+			}
+
+			#header .logo > span.sub-title {
+				font-weight: 500;
+				letter-spacing: 2px;
 			}
 
 			#header .logo > * {
