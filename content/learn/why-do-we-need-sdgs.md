@@ -4,6 +4,8 @@ date: 2015-03-11T14:00:29+11:00
 draft: false
 ---
 
+{{< vimeo vimeo-id="39048998" >}}
+*Video credit: [Welcome Anthropocene](https://vimeo.com/anthropocene)*
 
 The world has changed dramatically in the last two decades but there are four shifts that are particularly serious. Firstly, we are closer than ever to eradicating extreme poverty. Secondly, human societies are causing more damage than ever to the planet and the environment. Thirdly, inequality among and between countries is increasing. Finally, governance is becoming more complex, especially with the growing influence of technology (SDSN, Action Agenda Report 2014). Here are the facts:
 
@@ -40,8 +42,5 @@ The world has changed dramatically in the last two decades but there are four sh
   
 
 Today's problems will escalate quickly and dangerously if we do not urgently and radically change course. The Sustainable Development Goals (SDGs) give us a plan to fight these challenges.
-
-{{< vimeo vimeo-id="39048998" >}}
-*Video credit: [Welcome Anthropocene](https://vimeo.com/anthropocene)*
 
 {{< button link="https://www.dropbox.com/sh/uxx7e1a87m96njs/AAC-gtYqrb8L8Npi9QoEYA2Sa?dl=0" text="Why it matters posters ">}}
