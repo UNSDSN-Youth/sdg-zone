@@ -4,6 +4,10 @@ date: 2015-03-11T15:00:29+11:00
 draft: false
 ---
 
+{{< vice vice-id="59a6cbc1969022af07b6f038" >}}
+
+
+*Watch this new film by VICE, which highlights progress and challenges of global issues*
 
 How will the SDGs actually help us solve these complex problems? What are the benefits of having goals? Will they actually make our journey towards a better future easier and more successful? 
 
@@ -43,9 +47,5 @@ Goals empower communities to put pressure on governments and businesses to act. 
 
 And now the question is, can the global mobilization behind the Sustainable Development Goals (SDGs) result in the most successful sustainable development movement in history? 
 
-{{< vice vice-id="59a6cbc1969022af07b6f038" >}}
-
-
-*Watch this new film by VICE, which highlights progress and challenges of global issues*
 
 {{< button link="https://sdg.guide" text="SDG Guide" >}}
