@@ -15,6 +15,7 @@ paginate = 10
 [params]
     # Meta
     title = "SDG Zone"
+	header= " | Your one stop shop for information on the SDGs"
     author = "Sophia Huynh"
     description = "A portal made by UN SDSN Youth."
     keywords = "Hugo, Hugo theme, grid theme, bookmarks, collection"

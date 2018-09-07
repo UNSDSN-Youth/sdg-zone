@@ -2617,7 +2617,7 @@
 	}
 
 	#banner h1 {
-		font-size: 1.5em;
+		font-size: 1.15em;
 		width: 80%;
 		margin-bottom: 0em;
 		font-weight: 700;
@@ -2654,12 +2654,12 @@
 	}
 
 	.famous-quotes-slide > img {
-		width: 30%;
+		width: 35%;
 		position: absolute;
 		z-index: 0;
 		float: right;
 		top: 0em;
-		right: -12em;
+		right: -15em;
 		border-radius: 50%;
 	}
 
