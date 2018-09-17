@@ -2620,7 +2620,7 @@
 		font-size: 1.15em;
 		width: 80%;
 		margin-bottom: 0em;
-		font-weight: 600;
+		font-weight: 500;
 	}
 
 	#banner b {
@@ -2700,6 +2700,10 @@
 		padding-left: 2.1em;
 		font-weight: 600;
 		font-size: 1.2em;
+	}
+
+	.tiles-category .title-thin {
+		font-weight: 500;
 	}
 
 	#tiles {
