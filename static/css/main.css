@@ -2620,7 +2620,7 @@
 		font-size: 1.15em;
 		width: 80%;
 		margin-bottom: 0em;
-		font-weight: 700;
+		font-weight: 600;
 	}
 
 	#banner b {
@@ -2694,6 +2694,14 @@
 
 /* Tiles */
 
+	.tiles-category {
+		width: 100%;
+		margin-top: 0.5em;
+		padding-left: 2.1em;
+		font-weight: 600;
+		font-size: 1.2em;
+	}
+
 	#tiles {
 		display: -moz-flex;
 		display: -webkit-flex;
@@ -2705,6 +2713,7 @@
 		flex-wrap: wrap;
 		position: relative;
 		margin: -2.5em 0 0 -2.5em;
+		width: 100%;
 	}
 
 		#tiles article {
@@ -2714,7 +2723,7 @@
 			transition: transform 0.5s ease, opacity 0.5s ease;
 			position: relative;
 			width: calc(18% - 1.25em);
-			margin: 2.5em 0 0 2.5em;
+			margin: 0.5em 0 0 2.5em;
 		}
 
 			#tiles article > .image {
@@ -2891,7 +2900,7 @@
 			}
 
 		* + #tiles {
-			margin-top: 2em;
+			margin-top: 1em;
 		}
 
 		body.is-loading #tiles article {
@@ -2915,6 +2924,10 @@
 
 		@media screen and (max-width: 1280px) {
 
+			.tiles-category {
+				padding-left: 1.1em;
+			}
+
 			#tiles {
 				margin: -1.25em 0 0 -1.25em;
 			}
@@ -2928,6 +2941,11 @@
 
 		@media screen and (max-width: 980px) {
 
+			.tiles-category {
+				font-size: 2em;
+				padding-left: 1.2em;
+			}
+
 			#tiles {
 				margin: -2.5em 0 0 -2.5em;
 			}
@@ -2940,6 +2958,10 @@
 		}
 
 		@media screen and (max-width: 736px) {
+
+			.tiles-category {
+				padding-left: 1.1em;
+			}
 
 			#tiles {
 				margin: -1.25em 0 0 -1.25em;
@@ -2960,6 +2982,11 @@
 		}
 
 		@media screen and (max-width: 480px) {
+
+			.tiles-category {
+				padding-left: 0.6em;
+				font-size: 3em;
+			}
 
 			#tiles {
 				margin: 0;
