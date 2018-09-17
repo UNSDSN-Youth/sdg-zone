@@ -2614,6 +2614,7 @@
 		z-index: 2;
 		width: 70%;
 		float: none;
+		min-height: 460px;
 	}
 
 	#banner h1 {
@@ -2678,8 +2679,23 @@
 		background-color: #717171;
 	}
 
-	@media screen and (max-width: 600px) {
+	@media screen and (max-width: 850px) {
 		.famous-quotes-slide > img {
+			position: relative;
+			float: left;
+			right: 0;
+			margin-right: 100%;
+			margin-bottom: 1em;
+			width: 30%;
+		}
+
+		.banner-inner {
+			width: 100%;
+		}
+	}
+
+	@media screen and (max-width: 600px) {
+		.banner-inner .button {
 			display: none;
 		}
 
@@ -2689,6 +2705,7 @@
 
 		.banner-inner {
 			width: 90%;
+			height: 300px;
 		}
 	}
 
@@ -2809,7 +2826,8 @@
 				left: 0;
 				width: 100%;
 				height: 100%;
-				padding: 1em;
+				padding-left: 1px;
+				padding-right: 1px;
 				border-radius: 4px;
 				border-bottom: 0;
 				color: #ffffff;
@@ -2841,6 +2859,8 @@
 					height: 70px;
 					margin: 10px auto 0 auto;
 					padding-bottom: 0;
+					font-size: 0.8em;
+					text-transform: uppercase;
 				}
 
 				#tiles article > a .tile-content > .tile-title::after{
@@ -2850,11 +2870,12 @@
 					left: 0;
 				}
 
-				#tiles article > a .tile-content > .tile-title h4 {
+				#tiles article > a .tile-content > .tile-title {
 					padding: auto 0 auto 0;
 				}
 
 				#tiles article > a .tile-content > img {
+					padding-top: 10px;
 					position: relative;
 					align-self: center;
 					bottom: 0;
@@ -2928,7 +2949,18 @@
 
 		@media screen and (max-width: 1280px) {
 
+			#tiles article > a {
+				padding-left: 3px;
+				padding-right: 3px;
+			}
+
+			#tiles article > a .tile-content > .tile-title {
+				font-size: 1.1em;
+				height: 84px;
+			}
+
 			.tiles-category {
+				padding-top: 2em;
 				padding-left: 1.1em;
 			}
 
@@ -2945,6 +2977,11 @@
 
 		@media screen and (max-width: 980px) {
 
+			#tiles article > a .tile-content > .tile-title {
+				font-size: 2em;
+				height: 160px;
+			}
+
 			.tiles-category {
 				font-size: 2em;
 				padding-left: 1.2em;
@@ -2959,6 +2996,27 @@
 					margin: 2.5em 0 0 2.5em;
 				}
 
+		}
+
+		@media screen and (max-width: 930px) {
+
+			#tiles article > a .tile-content > .tile-title {
+				font-size: 1.8em;
+			}
+		}
+
+		@media screen and (max-width: 870px) {
+
+			#tiles article > a .tile-content > .tile-title {
+				font-size: 1.7em;
+			}
+		}
+
+		@media screen and (max-width: 820px) {
+
+			#tiles article > a .tile-content > .tile-title {
+				font-size: 1.4em;
+			}
 		}
 
 		@media screen and (max-width: 736px) {
@@ -2983,12 +3041,34 @@
 						transform: scale(1.0);
 					}
 
+					#tiles article > a .tile-content > .tile-title {
+						font-size: 1.2em;
+						height: 100px;
+					}
+
+		}
+
+		@media screen and (max-width: 648px) {
+
+			#tiles article > a .tile-content > .tile-title {
+				font-size: 1em;
+				height: 90px;
+			}
+
+			#tiles article > a {
+				padding-left: 5px;
+				padding-right: 5px;
+			}
+
+			.tiles-category {
+				padding-left: 0.6em;
+			}
 		}
 
 		@media screen and (max-width: 480px) {
 
 			.tiles-category {
-				padding-left: 0.6em;
+				padding-left: 0em;
 				font-size: 3em;
 			}
 
@@ -3001,6 +3081,17 @@
 					margin: 1.25em 0 0 0;
 				}
 
+				#tiles article > a .tile-content > .tile-title {
+					font-size: 2em;
+					height: 160px;
+				}
+		}
+
+		@media screen and (max-width: 400px) {
+
+			#tiles article > a .tile-content > .tile-title {
+				font-size: 1.5em;
+			}
 		}
 
 /* Header */
@@ -3138,21 +3229,27 @@
 							opacity: 0;
 						}
 
+		@media screen and (max-width: 1200px) {
+			#header .logo {
+				width: 80%;
+			}
+		}
+
 		@media screen and (max-width: 736px) {
 
 			#header {
 				padding: 4em 0 0.1em 0 ;
 			}
 
-				#header nav {
-					right: 0.5em;
-					top: 0.5em;
-				}
-
 					#header nav ul li a[href="#menu"]:before, #header nav ul li a[href="#menu"]:after {
 						background-size: 1.5em 1.5em;
 					}
+		}
 
+		@media screen and (max-width: 500px) {
+			#header nav {
+				right: 0em;
+			}
 		}
 
 /* Menu */
