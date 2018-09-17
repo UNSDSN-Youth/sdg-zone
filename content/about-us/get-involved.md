@@ -7,9 +7,9 @@ draft: false
 {{< images src="/images/blog-images/volunteerwithus.png" >}}
 
 
-For any feedback and suggestions, reach out to us at: **tech@sdsnyouth.org**.
+For any feedback and suggestions, reach out to us at: **tech(at)sdsnyouth.org**.
 
-You can also checkout our code at: https://github.com/UNSDSN-Youth/sdg-zone
+You can also checkout our [code on Github](https://github.com/UNSDSN-Youth/sdg-zone).
 {{< padding >}}
 
 More information about volunteering opportunities, and how to apply, can be found here: 

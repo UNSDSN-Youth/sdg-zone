@@ -5,7 +5,7 @@ draft: false
 ---
 
 {{< padding >}}
-The SDG Zone is a one-stop-shop for people to learn about the SDGs. There are four themes: Learn about the SDGs, Engage with the SDGs, Act on the SDGs and how is a certain sector engaged with the SDGs. We aim to educate people about sustainable development goals and engage intereseted audiences.
+The SDG Zone is a one-stop-shop for people to learn about the SDGs. There are four themes: Learn about the SDGs, Engage with the SDGs, Act on the SDGs and how is a certain sector engaged with the SDGs. We aim to educate people about the Sustainable Development Goals and engage interested audiences.
 
 {{< padding >}}
 
