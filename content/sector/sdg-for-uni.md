@@ -8,4 +8,4 @@ Getting started with the SDGs in universities is a guide to help universities, h
 
 The Guide highlights the important role universities have in implementing the SDGs through their teaching, research, operations and leadership, and provides practical guidance and examples to inspire further action.
 
-{{< button link="http://ap-unsdsn.org/wp-content/uploads/2017/08/University-SDG-Guide_web.pdf" text="SDG Univerisities Guide">}}
+{{< button link="http://ap-unsdsn.org/wp-content/uploads/2017/08/University-SDG-Guide_web.pdf" text="SDG Universities Guide">}}

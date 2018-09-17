@@ -4,8 +4,12 @@ date: 2015-03-11T17:00:29+11:00
 draft: false
 ---
 
-{{< images src="/images/blog-images/sdg-index-logo.png" >}}
+{{< padding >}}
 
+**SDG INDEX**
+---
+
+{{< images src="/images/blog-images/sdg-index-logo.png" >}}
 
 While the SDGs themselves are easy to understand, measuring progress on them is much more difficult.  
 
@@ -21,4 +25,18 @@ The Sustainable Development Solutions Network (SDSN) and the Bertelsmann Stiftun
 {{< button link="https://dashboards.sdgindex.org/#/MLT" text="Explore the 2018 SDG Index and Dashboards" >}}
 
 {{< padding >}}
+
 {{< padding >}}
+
+
+**GERMAN INSTITUTE NDC VISUALISATION**
+---
+
+{{< images src="/images/blog-images/german-institute-ndcs.png" >}}
+
+The German Development Institute has created a tool that visually depicts every country's performance on the SDGs, comparing Nationally Determined Contributions (NDCs) to the corresponding Sustainable Development Goals.
+
+{{< padding >}}
+
+{{< button link="https://klimalog.die-gdi.de/ndc-sdg/" text="See your country's progress on the NDCs" >}}
+
