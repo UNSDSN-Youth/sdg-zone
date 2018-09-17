@@ -3,7 +3,11 @@
 
 							<!-- Logo -->
 								<a href="{{ .Site.BaseURL }}" class="logo">
-									<span class="symbol"><img src="{{ .Site.BaseURL }}/images/sdg-wheel.png" alt="" /></span><span class="title">{{ with .Site.Params.title }}{{ . | markdownify }}{{ end }}</span>
+									<span class="symbol">
+										<img src="{{ .Site.BaseURL }}/images/sdg-wheel.png" alt="" /></span>
+										<span class="title">{{ with .Site.Params.title }}{{ . | markdownify }}{{ end }}</span><span class="title-thin">{{.Site.Params.header}}</span>
+									</span>
+									
 								</a>
 							<!-- Nav -->
 								<nav>

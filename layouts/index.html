@@ -43,22 +43,28 @@
 								</div>
 							</section>
 							<section id="tiles">
-								{{ range $.Site.Data.items.items }}
-								<article>
-									<span class="image">
-										<img src="{{.image}}" alt="" />
-									</span>
-									<a href="{{ .Site.BaseURL }}{{.url}}">
-										<div class="tile-content">
-											<div class="tile-title"><h4>{{.title}}</h4></div>
-										<img src="{{.icon}}"/>
-										</div>
-										<div class="content">
-											<p>{{.description}}</p>
-										</div>
-									</a>
-								</article>
-								{{ end }}
+								<div class="tiles-category">LEARN<span class="title-thin"> ABOUT THE SDGs</span></div>
+									{{ range $.Site.Data.boxes.learn }}
+										{{ partial "boxes.html" . }}
+									{{ end }}
+							</section>
+							<section id="tiles">
+								<div class="tiles-category">ENGAGE<span class="title-thin"> WITH THE SDGs</span></div>
+									{{ range $.Site.Data.boxes.engage }}
+										{{ partial "boxes.html" . }}
+									{{ end }}
+							</section>
+							<section id="tiles">
+								<div class="tiles-category">ACTION<span class="title-thin"> THE SDGs</span></div>
+									{{ range $.Site.Data.boxes.action }}
+										{{ partial "boxes.html" . }}
+									{{ end }}
+							</section>
+							<section id="tiles">
+								<div class="tiles-category">SECTOR<span class="title-thin"> - HOW CAN YOU GET INVOLVED?</span></div>
+									{{ range $.Site.Data.boxes.sector }}
+										{{ partial "boxes.html" . }}
+									{{ end }}
 							</section>
 						</div>
 					</div>
