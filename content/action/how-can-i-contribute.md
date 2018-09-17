@@ -159,6 +159,9 @@ THINGS YOU CAN DO AT WORK
 {{< padding >}}
 
 {{< button link="http://www.un.org/sustainabledevelopment/takeaction/" text="Lazy Person’s Guide to Saving the World" >}}
+
 {{< padding >}}
+
 {{< facebook facebook-id="https://www.facebook.com/worldeconomicforum/videos/10155155806976479/" >}}
+
 *Video credit: World Economic Forum*

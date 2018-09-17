@@ -3470,7 +3470,6 @@
 	#footer {
 		padding: 4em 0 3em 0 ;
 		background-color: #f6f6f6;
-
 	}
 
 		#footer > .inner {
@@ -3662,7 +3661,7 @@ facebook iframe{
 	display: block;
 	max-width:100%;
 	margin-left: auto;
-  margin-right: auto;
+  	margin-right: auto;
 }
 
 shortcode-button::before {
