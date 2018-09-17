@@ -8,6 +8,14 @@
 */
 
 /* Reset */
+	#wrapper:before {     
+		content: '';     
+		display: block     ;
+		width: 100%;     
+		background: url(/images/sdg-colors.jpg);     
+	height: 5px;
+	}
+
 	.heart{
 		color:#e25555;
 	}
