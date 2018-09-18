@@ -2864,7 +2864,7 @@
 				}
 
 				#tiles article > a .tile-content > .tile-title {
-					height: 70px;
+					height: 85px;
 					margin: 10px auto 0 auto;
 					padding-bottom: 0;
 					font-size: 0.8em;
@@ -2953,6 +2953,12 @@
 		@media screen and (max-width: 1800px) {
 			#tiles article > a > .content p {
 				font-size: 10pt;
+			}
+		}
+
+		@media screen and (max-width: 1680px) {
+			#tiles article > a .tile-content > .tile-title {
+				height: 80px;
 			}
 		}
 
