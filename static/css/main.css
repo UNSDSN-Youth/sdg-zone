@@ -2622,7 +2622,7 @@
 		z-index: 2;
 		width: 70%;
 		float: none;
-		min-height: 460px;
+		min-height: 505px;
 	}
 
 	#banner h1 {
@@ -3644,6 +3644,19 @@
 
 			#footer > .inner section a.footer-logo {
 				border-bottom: none;
+			}
+
+			#footer > .inner ul.copyright a.footer-links {
+				color: #4f7d4c;
+			}
+
+			#footer > .inner ul.copyright::after {
+				content: '';     
+				display: block     ;
+				width: 20%;     
+				background: url(/images/sdg-colors.jpg);     
+				height: 5px;
+				margin-top: 30px;
 			}
 
 			#footer > .inner section img.footer-logo {
