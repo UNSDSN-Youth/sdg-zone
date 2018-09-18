@@ -3642,8 +3642,14 @@
 				margin-bottom: 0;
 			}
 
-			#footer > .inner section > img {
+			#footer > .inner section a.footer-logo {
+				border-bottom: none;
+			}
+
+			#footer > .inner section img.footer-logo {
 				height: 90px;
+				text-decoration: none;
+				border-bottom: none;
 			}
 
 			#footer > .inner section:nth-child(1) {
