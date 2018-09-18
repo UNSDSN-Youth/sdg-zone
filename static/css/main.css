@@ -2629,7 +2629,7 @@
 		font-size: 1.15em;
 		width: 80%;
 		margin-bottom: 0em;
-		font-weight: 500;
+		font-weight: 300;
 	}
 
 	#banner b {
@@ -2728,7 +2728,7 @@
 	}
 
 	.tiles-category .title-thin {
-		font-weight: 500;
+		font-weight: 300;
 	}
 
 	#tiles {
@@ -3136,7 +3136,7 @@
 			display: inline-block;
 		}
 			#header .logo .title-thin {
-				font-weight: 700;
+				font-weight: 500;
 			}
 
 			#header .logo strong {
