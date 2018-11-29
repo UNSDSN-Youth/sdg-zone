@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>SDG ZONE</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+    {{ partial "head.html" . }}
+    {{ template "_internal/google_analytics.html" . }}
+	</head>
+  <body> 
+
+    		<!-- Wrapper -->
+			<div id="wrapper">
+
+          <!-- Header -->
+            <header id="header">
+              <div class="inner">
+                  {{ partial "header.html" . }}
+                  {{ partial "back-button.html" . }}
+              </div>
+            </header>
+  
+            {{ partial "menu.html" . }}
+            
+          <!-- Main -->
+            <div id="main">
+              <div class="single-inner">
+                <h1>{{ $.Title }}</h1>
+                  {{.Content}}
+                  <div class="pagination-buttons">
+                      {{ partial "pagination.html" . }}
+                  </div>
+              </div>
+            </div>
+
+        <!-- Footer -->
+        <footer id="footer">
+          <div class="inner">
+              {{ partial "footer.html" . }}
+          </div>
+        </footer>
+      </div>
+
+
+
+
+
+		<!-- Scripts -->
+		{{ partial "scripts.html" . }}
+  </body>
+</html>
