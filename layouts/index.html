@@ -44,7 +44,7 @@
 							</section>
 							<section id="tiles">
 								<div class="tiles-category">LEARN<span class="title-thin"> ABOUT THE SDGs</span></div>
-									{{ range $.Site.Data.boxes.learn }}
+									{{  $.Site.Data.boxes.learn }}
 										{{ partial "boxes.html" . }}
 									{{ end }}
 							</section>
@@ -55,7 +55,7 @@
 									{{ end }}
 							</section>
 							<section id="tiles">
-								<div class="tiles-category">ACTION<span class="title-thin"> THE SDGs</span></div>
+								<div class="tiles-category">ACT<span class="title-thin"> ON THE SDGs</span></div>
 									{{ range $.Site.Data.boxes.action }}
 										{{ partial "boxes.html" . }}
 									{{ end }}
