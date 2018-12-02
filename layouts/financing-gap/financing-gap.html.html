@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+        {{ partial "financing-head.html" . }}
+        {{ template "_internal/google_analytics.html" . }}
+	</head>
+  <body>
+    <!-- Wrapper -->
+        <div id="wrapper">
+            <!-- {{ partial "menu.html" . }} -->
+            {{ .Content }}
+        </div>
+        <!-- Footer -->
+        <footer id="footer">
+            <div class="inner">
+                {{ partial "financing-footer.html" . }}
+            </div>
+        </footer>
+		<!-- Scripts -->
+		{{ partial "scripts.html" . }}
+  </body>
+</html>
