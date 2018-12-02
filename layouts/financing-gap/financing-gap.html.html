@@ -7,7 +7,187 @@
   <body>
     <!-- Wrapper -->
         <div id="wrapper">
-            {{ .Content }}
+            
+
+    <!-- Intro -->
+        <section class="intro">
+                <header class="left-pane">
+                    <h1>Move Humanity</h1>
+                    <p>Powered by <a href="https://sdgzone.com">sdgzone.com</a> / <a href="https://sdsnyouth.org">sdsnyouth.org</a></p>
+                    <ul class="actions">
+                        <li><a href="#first" class="arrow scrolly"><span class="label">Learn more</span></a></li>
+                    </ul>
+                </header>
+                <div class="content">
+                        {{ range $.Site.Data.financingquotes.quotes }}
+                        <div class="famous-quotes-slide">
+                            <div class="quote">
+                                <h3>"{{ .quote1 }}<strong>{{ .quote2 }}</strong>{{ .quote3 }}<strong>{{ .quote4 }}</strong>{{ .quote5 }}"</h3>
+                            </div>
+                            <img src="{{ $.Site.BaseURL }}/{{.image}}"/>
+                            <div class="author">
+                                <b>{{.name}}</b>
+                                <p>{{.title}}</p>
+                            </div>
+                        </div>
+                        {{ end }}
+                </div>
+            </section>
+    
+        <!-- Section -->
+            <section id="first">
+                <header class="left-pane">
+                    <h2>We must Move Humanity.</h2>
+                </header>
+                <div class="content">
+                        <p>
+                        Around the world today, more than <strong>1 billion people</strong> live in extreme poverty and lack access to clean water, electricity and basic health care. Around <strong>263 million children and youth</strong> are out of school. More than <strong>6 million children</strong> die each year before the age of 5. But, we can change this. 
+                        </p>
+                        <p>
+                        In 2015, 139 countries signed up to the Sustainable Development Goals - a set of 17 objectives aimed at ending extreme poverty, promoting justice, peace and prosperity for all, and protecting the natural environment - all by the year 2030. Everybody - not just governments - is coming together to work towards these common goals. To learn more about the Sustainable Development Goals, visit <a href="https://sdgzone.com">SDG ZONE</a>.
+                        </p>
+    <!-- 
+                        <div class="icon-grid">
+                            <ul>
+                                <li>
+                                    <i class="fas fa-utensils"></i>
+                                    <span>ending poverty and hunger</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-balance-scale"></i>
+                                    <span>justice, peace and prosperity</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-tree"></i>
+                                    <span>environment</span>
+                                </li>
+                            </ul>
+                        </div>   -->
+    
+                        <p>
+                        If we achieve the SDGs, it would mean universal healthcare will be available to all, every child will have the opportunity to gain a quality education, no one will be forced to go to bed hungry, and much more. But making the SDGs a reality requires significant investment.
+                        </p>
+                        <p>
+                        It is estimated that the world needs to spend between <strong>$5-7 trillion USD</strong> each year to meet the SDGs, with a <strong>financing gap of around $2.5 trillion USD</strong> for low-income countries. Luckily, there is enough wealth in the world to help achieve these goals and fill the financing gap. 
+                        </p>
+                        <p>
+                        There are currently 2,208 billionaires in the world today. Their combined net worth amounts to approximately $9.1 trillion. If every billionaire pledged just 1% of their wealth, that would be enough to close about <strong>one third</strong> of the SDG financing gap in the world’s lowest income countries, and:
+                        </p>
+    
+                        <div class="icon-grid">
+                            <ul>
+                                <li>
+                                    <i class="fas fa-hand-holding-usd"></i>
+                                    <span>Bring 1 billion humans out of poverty</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-graduation-cap"></i>
+                                    <span>Save 6 million children from preventable diseases</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-syringe"></i>
+                                    <span>Put 263 million children through school</span>
+                                </li>
+                            </ul>
+                        </div>  
+    
+                        <ul class="actions">
+                            <li><a href="https://movehumanity.org/" class="button large" type="cta">Learn More</a></li>
+                        </ul>
+       
+                </div>
+            </section>
+    
+            <section>
+                    <header class="left-pane">
+                            <h2>Billionaires in Australia, New Zealand and Pacific</h2>
+                    </header>
+                    <div class="content">
+                            <h4>A combined wealth of: <strong>$134.7B</strong>.</h4>
+                            <p>Australia</p>
+                            <div class="icon-grid">
+                                    <ul>
+                                        <li>
+                                            <i class="fas fa-user"></i>
+                                            <span>43 Billionaires</span>
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-money-bill-wave"></i>
+                                            <span>$122.53B</span>
+                                        </li>
+                                    </ul>
+                                </div>  
+                        <!-- <div class="gallery">
+                            <a href="images/gallery/fulls/01.jpg" class="landscape"><img src="images/gallery/thumbs/01.jpg" alt="" /></a>
+                        </div> -->
+                        <p>New Zealand</p>
+                        <div class="icon-grid">
+                                    <ul>
+                                        <li>
+                                            <i class="fas fa-user"></i>
+                                            <span>2 Billionaires</span>
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-money-bill-wave"></i>
+                                            <span>$12.2B</span>
+                                        </li>
+                                    </ul>
+                                </div>  
+                        <!-- <div class="gallery">
+                            <a href="images/gallery/fulls/01.jpg" class="landscape"><img src="images/gallery/thumbs/01.jpg" alt="" /></a>
+                        </div> -->
+                    </div>
+                </section>
+    
+        <!-- Section -->
+            <section>
+                <header class="left-pane">
+                    <h2>Social Media</h2>
+                </header>
+                <div class="content">
+                    <p><strong>Spread the word</strong>. Share any of these graphics onto social media.</p>
+    
+                    <!-- Section -->
+                        <section>
+                            <header class="left-pane">
+                                <h3>SDSN Youth Northern Europe</h3>
+                                <p>Short videos</p>
+                            </header>
+                            <div class="content">
+                                <div class="gallery">
+                                        <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">With the superrich 1% net worth we can - save 6 million children per year from dying of preventable diseases. Let’s do it now! <br> <a href="https://twitter.com/hashtag/movehumanity?src=hash&amp;ref_src=twsrc%5Etfw">#movehumanity</a> <a href="https://twitter.com/humanact_dk?ref_src=twsrc%5Etfw">@humanact_dk</a> <a href="https://twitter.com/UNSDSN?ref_src=twsrc%5Etfw">@UNSDSN</a> <a href="https://twitter.com/SDSNYouth?ref_src=twsrc%5Etfw">@SDSNYouth</a> <a href="https://twitter.com/SDSNNE?ref_src=twsrc%5Etfw">@SDSNNE</a> <a href="https://twitter.com/hashtag/Youth4sdsg?src=hash&amp;ref_src=twsrc%5Etfw">#Youth4sdsg</a> <a href="https://twitter.com/hashtag/Youth2030?src=hash&amp;ref_src=twsrc%5Etfw">#Youth2030</a> <a href="https://t.co/ogdEWVZxG6">pic.twitter.com/ogdEWVZxG6</a></p>&mdash; SDSN Youth in Northern Europe (@SDSNYouthinNE) <a href="https://twitter.com/SDSNYouthinNE/status/1068776753416548353?ref_src=twsrc%5Etfw">December 1, 2018</a></blockquote>
+                                        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                                                                        
+                                        <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">With the superrich 1% net worth we can bring 1 billion out of extreme poverty. Let’s do it now! <a href="https://twitter.com/hashtag/movehumanity?src=hash&amp;ref_src=twsrc%5Etfw">#movehumanity</a> <a href="https://twitter.com/hashtag/Youth4SDGs?src=hash&amp;ref_src=twsrc%5Etfw">#Youth4SDGs</a> <a href="https://twitter.com/hashtag/Youth2030?src=hash&amp;ref_src=twsrc%5Etfw">#Youth2030</a> <a href="https://twitter.com/humanact_dk?ref_src=twsrc%5Etfw">@humanact_dk</a> <a href="https://twitter.com/UNSDSN?ref_src=twsrc%5Etfw">@UNSDSN</a> <a href="https://twitter.com/SDSNYouth?ref_src=twsrc%5Etfw">@SDSNYouth</a> <a href="https://twitter.com/SDSNNE?ref_src=twsrc%5Etfw">@SDSNNE</a> <a href="https://t.co/oWwvjybMxf">pic.twitter.com/oWwvjybMxf</a></p>&mdash; SDSN Youth in Northern Europe (@SDSNYouthinNE) <a href="https://twitter.com/SDSNYouthinNE/status/1068414397364744199?ref_src=twsrc%5Etfw">November 30, 2018</a></blockquote>
+                                        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    
+                                        <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Did you know that the top richest 1% of the world own more than 50% of the world’s total wealth?<a href="https://twitter.com/hashtag/MoveHumanity?src=hash&amp;ref_src=twsrc%5Etfw">#MoveHumanity</a> <a href="https://twitter.com/hashtag/Youth4SDGs?src=hash&amp;ref_src=twsrc%5Etfw">#Youth4SDGs</a> <a href="https://twitter.com/hashtag/Youth2030?src=hash&amp;ref_src=twsrc%5Etfw">#Youth2030</a> <a href="https://twitter.com/humanact_dk?ref_src=twsrc%5Etfw">@humanact_dk</a> <a href="https://twitter.com/UNSDSN?ref_src=twsrc%5Etfw">@UNSDSN</a> <a href="https://twitter.com/SDSNYouth?ref_src=twsrc%5Etfw">@SDSNYouth</a> <a href="https://twitter.com/SDSNNE?ref_src=twsrc%5Etfw">@SDSNNE</a> <a href="https://t.co/OH72qL8FjF">pic.twitter.com/OH72qL8FjF</a></p>&mdash; SDSN Youth in Northern Europe (@SDSNYouthinNE) <a href="https://twitter.com/SDSNYouthinNE/status/1068057706110570497?ref_src=twsrc%5Etfw">November 29, 2018</a></blockquote>
+                                        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    
+    
+                                        <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Move Humanity is closing the finance gap for the <a href="https://twitter.com/hashtag/SDGs?src=hash&amp;ref_src=twsrc%5Etfw">#SDGs</a>. Let’s end extreme poverty by calling on the top 1% to donate 1% of their wealth to the poor!<a href="https://twitter.com/hashtag/Movehumanity?src=hash&amp;ref_src=twsrc%5Etfw">#Movehumanity</a> <a href="https://twitter.com/UNSDSN?ref_src=twsrc%5Etfw">@UNSDSN</a> <a href="https://twitter.com/SDSNYouth?ref_src=twsrc%5Etfw">@SDSNYouth</a> <a href="https://twitter.com/humanact_dk?ref_src=twsrc%5Etfw">@humanact_dk</a> <a href="https://twitter.com/SDSNNE?ref_src=twsrc%5Etfw">@SDSNNE</a> <a href="https://t.co/DvAB2mOYDc">pic.twitter.com/DvAB2mOYDc</a></p>&mdash; SDSN Youth in Northern Europe (@SDSNYouthinNE) <a href="https://twitter.com/SDSNYouthinNE/status/1067689659046797312?ref_src=twsrc%5Etfw">November 28, 2018</a></blockquote>
+                                        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                                </div>
+                            </div>
+                        </section>
+                </div>
+            </section>
+    
+        <!-- Section -->
+            <section>
+               <header class="left-pane">
+                    <h2>Sign the pledge to ask the world’s richest to help end extreme poverty</h2>
+                </header>
+                <div class="content">
+                    <p>
+                        Add your name to the list of people calling on the billionaires of the world to contribute to making the SDGs a reality
+                    </p>
+                    <ul class="actions">
+                        <li><a href="https://www.globalcitizen.org/en/action/sign-ask-billionaires-help-end-extreme-poverty/" class="button large">Sign the pledge</a></li>
+                    </ul>
+                </div>
+            </section>
+    
         </div>
         <!-- Footer -->
         <footer id="footer">

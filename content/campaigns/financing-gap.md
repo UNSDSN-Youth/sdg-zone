@@ -5,4 +5,4 @@ type: "financing-gap"
 layout: "financing-gap.html"
 ---
 
-{{< financing >}}
+-
