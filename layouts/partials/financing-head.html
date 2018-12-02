@@ -1,0 +1,20 @@
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{ .Site.Title }}</title>
+<meta name="description" content="{{ with .Site.Params.description }}{{ . }}{{ end }}" />
+<meta name="keywords" content="{{ with .Site.Params.keywords }}{{ . }}{{ end }}" />
+<meta name="author" content="{{ with .Site.Params.author }}{{ . }}{{ end }}" />
+{{ .Hugo.Generator }}
+<style>
+body {
+background: {{ .Site.Params.bodybgcolor }};
+color: {{ .Site.Params.bodytextcolor }};
+}
+</style>
+<link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}/css/financing.css" />
+<script defer src="https://use.fontawesome.com/releases/v5.5.0/js/all.js" integrity="sha384-GqVMZRt5Gn7tB9D9q7ONtcp4gtHIUEW/yG7h98J7IpE3kpi+srfFyyB/04OV6pG0" crossorigin="anonymous"></script>
+{{ range .Site.Params.custom_css }}
+    <link rel="stylesheet" href="{{ . }}">
+{{ end }}
+<script src="{{ .Site.BaseURL }}/js/modernizr.custom.js"></script>
