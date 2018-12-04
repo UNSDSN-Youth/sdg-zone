@@ -1,5 +1,5 @@
 @import url(../font-awesome.min.css);
-@import url('https://fonts.googleapis.com/css?family=Lato:300,700,900');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,600,800');
 
 
 /* Basic */
@@ -34,8 +34,6 @@ section, summary, time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
-	font: inherit;
 	vertical-align: baseline;}
 
 html {
@@ -73,9 +71,9 @@ body {
 
 body, input, select, textarea {
     color: #000000;
-    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-family: "Montserrat", Helvetica, sans-serif;
     font-size: 1rem;
-    font-weight: 300;
+    font-weight: 300 !important;
     letter-spacing: 0.0375em;
     line-height: 2;
 }
@@ -115,13 +113,13 @@ p {
 }
 
 strong, b {
-    font-weight: 700;
+    font-weight: 600;
 }
 
 h1 {
-    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-family: "Montserrat", Helvetica, sans-serif;
     font-size: 3rem;
-    font-weight: 900 !important;
+    font-weight: 800 !important;
     letter-spacing: -0.05em;
     line-height: 1.4;
     margin: 0 0 1.5rem 0;
@@ -130,7 +128,7 @@ h1 {
 
 h2 {
     font-size: 1.25rem;
-    font-weight: 700 !important;
+    font-weight: 600 !important;
     margin: 0 0 2rem 0;
 }
 
@@ -203,7 +201,7 @@ h6 {
 
 h1, h2, h3, h4, h5, h6 {
     color: #000000;
-    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-family: "Montserrat", Helvetica, sans-serif;
     font-weight: 600;
     letter-spacing: 0.175em;
     line-height: 1.75;
@@ -303,7 +301,7 @@ html {
             }
 
             #wrapper section > header h1 + p {
-                font-family: "Source Sans Pro", Helvetica, sans-serif;
+                font-family: "Montserrat", Helvetica, sans-serif;
                 font-size: 0.8rem;
                 letter-spacing: 0.175em;
                 line-height: 2.5;
@@ -427,6 +425,7 @@ html {
     #wrapper .copyright {
         color: rgba(0, 0, 0, 0.25);
         font-size: 1rem;
+        font-weight: 300 !important;
         left: 50vw;
         position: relative;
         width: 50vw;
@@ -950,7 +949,7 @@ button,
     color: #000000 !important;
     cursor: pointer;
     display: inline-block;
-    font-family: "Raleway", Helvetica, sans-serif;
+    font-family: "Montserrat", Helvetica, sans-serif;
     font-size: 0.6rem;
     font-weight: 600;
     height: 3rem;
@@ -1356,7 +1355,7 @@ ul.feature-icons {
             .gallery a {
                 border-bottom: 0;
                 display: block;
-                margin: 1.25rem 0 0 1.25rem;
+                margin: 1.25rem 0 1.25rem 0;
                 outline: 0;
                 position: relative;
                 width: calc(50% - 1.25rem);
@@ -1364,10 +1363,10 @@ ul.feature-icons {
     
                 .gallery a img {
                     display: block;
-                    height: 25vw;
-                    min-height: 18rem;
+                    height: 40vw;
+                    min-height: 23rem;
                     object-fit: cover;
-                    object-position: center;
+                    object-position: top;
                     width: 100%;
                 }
     
@@ -1741,6 +1740,16 @@ ul.actions {
             border-bottom: none;
         }
 
+        #footer > .inner section img.footer-logo.move-humanity-logo {
+            width: 195px;
+            text-decoration: none;
+            border-bottom: none;
+        }
+
+        #footer > .inner section img.footer-logo.move-humanity-logo {
+            filter: invert(11%) sepia(1%) saturate(0%) hue-rotate(177deg) brightness(40%) contrast(0%);
+        }
+
         #footer > .inner section:nth-child(1) {
             width: calc(66% - 2.5em);
             margin-right: 2.5em;
@@ -1769,6 +1778,7 @@ ul.actions {
             #footer > .inner .copyright li {
                 display: inline-block;
                 border-left: solid 1px rgba(88, 88, 88, 0.15);
+                font-weight: 300 !important;
                 line-height: 1;
                 padding: 0 0 0 1em;
                 margin: 0 0 0 1em;
