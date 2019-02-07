@@ -26,7 +26,7 @@ Your university isn't a part of SDSN? No problem. Why not write to your universi
 
 {{< padding >}}
 {{< padding >}}
-**SDG Students Program** -- changing the world starts on your campus with you.
+**SDG Students Program** -- changing the world starts on your campus with you
 {{< padding >}}
 {{< padding >}}
 
