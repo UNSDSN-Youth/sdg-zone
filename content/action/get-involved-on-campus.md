@@ -19,7 +19,7 @@ Find out if your university/ institution is a member of the {{< external-links s
 
 
 
-If your university is an SDSN member, you could reach out to your institution's leadership, and see if there are areas for students to help. A full list of SDSN member institutions in alphabetical order can be found at: {{< external-links src="http://unsdsn.org/what-we-do/national-and-regional-networks/members/" text="(http://unsdsn.org/what-we-do/national-and-regional-networks/members/)" >}}.
+If your university is an SDSN member, you could reach out to your institution's leadership, and see if there are areas for students to help. A full list of SDSN member institutions in alphabetical order can be found at: {{< external-links src="https://networks.unsdsn.org/members" text="(https://networks.unsdsn.org/members)" >}}.
 
 Your university isn't a part of SDSN? No problem. Why not write to your university's leadership and see if they'd be interested to join? Membership is free - more information about membership, and how to apply, can be found here: {{< external-links src="http://unsdsn.org/get-involved/join-the-sdsn/" text="(http://unsdsn.org/get-involved/join-the-sdsn/)" >}}.
 
