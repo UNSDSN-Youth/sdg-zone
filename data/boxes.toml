@@ -173,7 +173,7 @@ title = "SDG Quiz"
 image = "images/homepage-boxes/purple/pic01.jpg"
 icon = "images/homepage-boxes/icons/sdsny-icon.png"
 description = "Find out which SDG you are!"
-url = "sdgzone.com"
+url = "/campaigns/quiz"
 [[campaign]]
 category = "CAMPAIGN"
 item = 3
