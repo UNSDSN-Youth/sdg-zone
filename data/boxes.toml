@@ -165,7 +165,7 @@ title = "SDG Financing Gap"
 image = "images/homepage-boxes/purple/pic01.jpg"
 icon = "images/homepage-boxes/icons/sdsny-icon.png"
 description = "Move Humanity Campaign for SDG Financing awareness"
-url = "/sector/sdg-for-schools"
+url = "/campaigns/financing-gap"
 [[campaign]]
 category = "CAMPAIGN"
 item = 2
