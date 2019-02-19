@@ -3,7 +3,7 @@
             <span class="image">
                 <img src="{{.image}}" alt="" />
             </span>
-            <a href="{{.url}}">
+            <a href="{{ .Site.BaseURL }}{{.url}}">
                 <div class="tile-content">
                     <div class="tile-title">{{ .title }}</div>
                     <img src="{{.icon}}"/>

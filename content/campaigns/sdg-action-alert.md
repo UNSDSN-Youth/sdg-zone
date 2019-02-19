@@ -1,5 +1,5 @@
 ---
-title: "How will the SDGs solve our problems?"
+title: "SDG Action Alert"
 date: 2015-03-11T15:00:29+11:00
 draft: false
 ---
@@ -14,4 +14,4 @@ The program is open to everyone (but will primarily have a Nordic perspective, a
   
 {{< padding >}}
 
-{{< button link="https://ui.ungpd.com/Surveys/2c09ce7e-9223-456c-a882-011e9d1749cc?fbclid=IwAR0pYOHf62uWKpWjRKqYMdheSS2eo8eNSpTWMeW6L8Dsexh2PvHihSmf6HU " text="SDG Action Alert" >}}
+{{< button link="https://ui.ungpd.com/Surveys/2c09ce7e-9223-456c-a882-011e9d1749cc?fbclid=IwAR0pYOHf62uWKpWjRKqYMdheSS2eo8eNSpTWMeW6L8Dsexh2PvHihSmf6HU" text="SDG Action Alert" >}}
