@@ -158,3 +158,27 @@ image = "images/homepage-boxes/yellow/pic05.jpg"
 icon = "images/homepage-boxes/icons/sector-5.png"
 description = "Find out how universities can get started with implementing the SDGs."
 url = "/sector/sdg-for-uni"
+[[campaign]]
+category = "CAMPAIGN"
+item = 1
+title = "SDG Financing Gap"
+image = "images/homepage-boxes/purple/pic01.jpg"
+icon = "images/homepage-boxes/icons/sdsny-icon.png"
+description = "Move Humanity Campaign for SDG Financing awareness"
+url = "/sector/sdg-for-schools"
+[[campaign]]
+category = "CAMPAIGN"
+item = 2
+title = "SDG Quiz"
+image = "images/homepage-boxes/purple/pic01.jpg"
+icon = "images/homepage-boxes/icons/sdsny-icon.png"
+description = "Find out which SDG you are!"
+url = "quiz.sdgzone.com"
+[[campaign]]
+category = "CAMPAIGN"
+item = 3
+title = "SDG Action Alert"
+image = "images/homepage-boxes/purple/pic01.jpg"
+icon = "images/homepage-boxes/icons/sdsny-icon.png"
+description = "Quick concrete actions you can take, working towards the SDGs"
+url = "/campaigns/sdg-action-alert"

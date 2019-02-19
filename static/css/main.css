@@ -1648,6 +1648,13 @@
 			transition: none !important;
 		}
 
+
+/* Spacing */
+
+	.spacing-top {
+		margin-top: 2em !important;
+	}
+
 /* Type */
 
 	body, input, select, textarea {
@@ -1691,6 +1698,10 @@
 
 	strong, b {
 		font-weight: 900;
+	}
+
+	kind-of-strong {
+		font-weight: 700;
 	}
 
 	em, i {
