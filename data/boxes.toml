@@ -5,7 +5,7 @@ title = "What are the Sustainable Development Goals?"
 image = "images/homepage-boxes/green/pic01.jpg"
 icon = "images/homepage-boxes/icons/learn-1.png"
 description = "10 things you should know about the SDGs."
-url = "sdgzone.com/learn/what-are-the-sdgs/"
+url = "/learn/what-are-the-sdgs/"
 [[learn]]
 category = "LEARN"
 item = 2
@@ -13,7 +13,7 @@ title = "Why do we need the SDGs?"
 image = "images/homepage-boxes/green/pic02.jpg"
 icon = "images/homepage-boxes/icons/learn-2.png"
 description = "Find out what the goals are trying to achieve."
-url = "sdgzone.com/learn/why-do-we-need-sdgs"
+url = "/learn/why-do-we-need-sdgs"
 [[learn]]
 category = "LEARN"
 item = 3
@@ -21,7 +21,7 @@ title = "How will the SDGs solve our problems?"
 image = "images/homepage-boxes/green/pic03.jpg"
 icon = "images/homepage-boxes/icons/learn-3.png"
 description = "5 reasons why having goals is important."
-url = "sdgzone.com/learn/how-will-sdg-solve-problems"
+url = "/learn/how-will-sdg-solve-problems"
 [[learn]]
 category = "LEARN"
 item = 4
@@ -29,7 +29,7 @@ title = "Has my government signed the SDGs?"
 image = "images/homepage-boxes/green/pic04.jpg"
 icon = "images/homepage-boxes/icons/learn-4.png"
 description = "Find out which countries have committed to the SDGs and what their governments say about them."
-url = "sdgzone.com/learn/is-my-gov-committed-to-sdgs"
+url = "/learn/is-my-gov-committed-to-sdgs"
 [[learn]]
 category = "LEARN"
 item = 5
@@ -37,7 +37,7 @@ title = "How is my country progressing on the SDGs?"
 image = "images/homepage-boxes/green/pic05.jpg"
 icon = "images/homepage-boxes/icons/learn-5.png"
 description = "Check whether your country is on track to meeting the SDGs."
-url = "sdgzone.com/learn/my-country-and-sdgs"
+url = "/learn/my-country-and-sdgs"
 [[engage]]
 category = "ENGAGE"
 item = 1
@@ -45,7 +45,7 @@ title = "How can I learn more about the SDGs?"
 image = "images/homepage-boxes/red/pic01.jpg"
 icon = "images/homepage-boxes/icons/engage-1.png"
 description = "SDG Academy offers free online courses that you can enrol in today."
-url = "sdgzone.com/engage/how-can-i-learn"
+url = "/engage/how-can-i-learn"
 [[engage]]
 category = "ENGAGE"
 item = 2
@@ -53,7 +53,7 @@ title = "How can I test my SDG knowledge?"
 image = "images/homepage-boxes/red/pic02.jpg"
 icon = "images/homepage-boxes/icons/engage-2.png"
 description = "Test and improve your knowledge of the SDGs."
-url = "sdgzone.com/engage/how-can-i-test-my-knowledge"
+url = "/engage/how-can-i-test-my-knowledge"
 [[engage]]
 category = "ENGAGE"
 item = 3
@@ -61,7 +61,7 @@ title = "Where can I find SDG related opportunities?"
 image = "images/homepage-boxes/red/pic03.jpg"
 icon = "images/homepage-boxes/icons/engage-3.png"
 description = "Find SDG relevant opportunities."
-url = "sdgzone.com/engage/how-find-ops"
+url = "/engage/how-find-ops"
 [[engage]]
 category = "ENGAGE"
 item = 4
@@ -77,7 +77,7 @@ title = "What’s the latest news on SDGs?"
 image = "images/homepage-boxes/red/pic05.jpg"
 icon = "images/homepage-boxes/icons/engage-5.png"
 description = "Find out what’s been happening in the SDG space."
-url = "sdgzone.com/engage/latest-sdg-news"
+url = "/engage/latest-sdg-news"
 [[action]]
 category = "ACTION"
 item = 1
@@ -85,7 +85,7 @@ title = "How can I contribute to the SDGs?"
 image = "images/homepage-boxes/blue/pic01.jpg"
 icon = "images/homepage-boxes/icons/action-1.png"
 description = "Learn how you can make a difference in your everyday life."
-url = "sdgzone.com/action/how-can-i-contribute"
+url = "/action/how-can-i-contribute"
 [[action]]
 category = "ACTION"
 item = 2
@@ -93,7 +93,7 @@ title = "Are there SDG projects I can learn from?"
 image = "images/homepage-boxes/blue/pic02.jpg"
 icon = "images/homepage-boxes/icons/action-2.png"
 description = "Discover innovative and inspirational solutions to the SDGs."
-url = "sdgzone.com/action/sdg-projects-to-learn-from"
+url = "/action/sdg-projects-to-learn-from"
 [[action]]
 category = "ACTION"
 item = 3
@@ -101,7 +101,7 @@ title = "Which organizations are working on the SDGs in my city?"
 image = "images/homepage-boxes/blue/pic03.jpg"
 icon = "images/homepage-boxes/icons/action-3.png"
 description = "Find out who is taking action on the SDGs near you."
-url = "sdgzone.com/action/local-orgs-in-my-city"
+url = "/action/local-orgs-in-my-city"
 [[action]]
 category = "ACTION"
 item = 4
@@ -109,7 +109,7 @@ title = "How can I engage with SDGs at my university?"
 image = "images/homepage-boxes/blue/pic04.jpg"
 icon = "images/homepage-boxes/icons/action-4.png"
 description = "Check out SDSN Member Institutions and the SDG Students Program."
-url = "sdgzone.com/action/get-involved-on-campus"
+url = "/action/get-involved-on-campus"
 [[action]]
 category = "ACTION"
 item = 5
@@ -117,7 +117,7 @@ title = "How can I volunteer for the SDGs?"
 image = "images/homepage-boxes/blue/pic05.jpg"
 icon = "images/homepage-boxes/icons/action-6.png"
 description = "Find SDG-related volunteering opportunities."
-url = "sdgzone.com/action/how-can-i-volunteer"
+url = "/action/how-can-i-volunteer"
 [[sector]]
 category = "SECTOR"
 item = 1
@@ -125,7 +125,7 @@ title = "How can cities contribute to SDGs?"
 image = "images/homepage-boxes/yellow/pic01.jpg"
 icon = "images/homepage-boxes/icons/sector-1.png"
 description = "Find out how cities can get started with implementing the SDGs."
-url = "sdgzone.com/sector/sdg-for-cities"
+url = "/sector/sdg-for-cities"
 [[sector]]
 category = "SECTOR"
 item = 2
@@ -133,7 +133,7 @@ title = "How can business contribute to SDGs?"
 image = "images/homepage-boxes/yellow/pic02.jpg"
 icon = "images/homepage-boxes/icons/sector-2.png"
 description = "Find out how companies can align their strategy to the SDGs."
-url = "sdgzone.com/sector/sdg-for-business"
+url = "/sector/sdg-for-business"
 [[sector]]
 category = "SECTOR"
 item = 3
@@ -141,7 +141,7 @@ title = "How can youth contribute to SDGs?"
 image = "images/homepage-boxes/yellow/pic03.jpg"
 icon = "images/homepage-boxes/icons/sector-3.png"
 description = "A handbook that explores the SDGs from a youth perspective."
-url = "sdgzone.com/sector/sdg-for-youth"
+url = "/sector/sdg-for-youth"
 [[sector]]
 category = "SECTOR"
 item = 4
@@ -149,7 +149,7 @@ title = "How can schools contribute to SDGs?"
 image = "images/homepage-boxes/yellow/pic04.jpg"
 icon = "images/homepage-boxes/icons/sector-4.png"
 description = "Find out how schools can get started with implementing the SDGs."
-url = "sdgzone.com/sector/sdg-for-schools"
+url = "/sector/sdg-for-schools"
 [[sector]]
 category = "SECTOR"
 item = 5
@@ -157,7 +157,7 @@ title = "How can universities contribute to SDGs?"
 image = "images/homepage-boxes/yellow/pic05.jpg"
 icon = "images/homepage-boxes/icons/sector-5.png"
 description = "Find out how universities can get started with implementing the SDGs."
-url = "sdgzone.com/sector/sdg-for-uni"
+url = "/sector/sdg-for-uni"
 [[campaign]]
 category = "CAMPAIGN"
 item = 1
@@ -165,7 +165,7 @@ title = "SDG Financing Gap"
 image = "images/homepage-boxes/purple/pic01.jpg"
 icon = "images/homepage-boxes/icons/sdsny-icon.png"
 description = "Move Humanity Campaign for SDG Financing awareness"
-url = "sdgzone.com/campaigns/financing-gap"
+url = "/campaigns/financing-gap"
 [[campaign]]
 category = "CAMPAIGN"
 item = 2
@@ -173,7 +173,7 @@ title = "SDG Quiz"
 image = "images/homepage-boxes/purple/pic01.jpg"
 icon = "images/homepage-boxes/icons/sdsny-icon.png"
 description = "Find out which SDG you are!"
-url = "quiz.sdgzone.com"
+url = "sdgzone.com"
 [[campaign]]
 category = "CAMPAIGN"
 item = 3
@@ -181,4 +181,4 @@ title = "SDG Action Alert"
 image = "images/homepage-boxes/purple/pic01.jpg"
 icon = "images/homepage-boxes/icons/sdsny-icon.png"
 description = "Quick concrete actions you can take, working towards the SDGs"
-url = "sdgzone.com/campaigns/sdg-action-alert"
+url = "/campaigns/sdg-action-alert"
