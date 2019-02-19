@@ -9,9 +9,9 @@ draft: false
 
 Find out which SDG you are, and get a free cute SDG pet!
 
-This was made as part of our [Move Humanity - SDG Financing Gap Campaign](sdgzone.com/campaigns/financing-gap).
+This was made as part of our {{< external-links src="http://sdgzone.com/campaigns/financing-gap" text="(Move Humanity - SDG Financing Gap Campaign)" >}}.
 
   
 {{< padding >}}
 
-{{< button link="quiz.sdgzone.com" text="SDG Quiz" >}}
+{{< button link="https://quiz.sdgzone.com" text="SDG Quiz">}}
