@@ -2730,8 +2730,8 @@
 	
 	/* Space for Move Humanity button */
 
-	button.movehumanity-button {
-		padding-top: 10em;
+	.button.movehumanity-button {
+		margin-top: 10em!important;
 		background-color: purple !important;
 	}
 
