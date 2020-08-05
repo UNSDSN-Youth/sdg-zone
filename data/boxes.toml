@@ -182,3 +182,11 @@ image = "images/homepage-boxes/purple/pic01.jpg"
 icon = "images/homepage-boxes/icons/sdsny-icon.png"
 description = "Quick concrete actions you can take, working towards the SDGs"
 url = "/campaigns/sdg-action-alert"
+[[campaign]]
+category = "CAMPAIGN"
+item = 4
+title = "SDG Coloring Book"
+image = "images/homepage-boxes/purple/pic01.jpg"
+icon = "images/homepage-boxes/icons/sdsny-icon.png"
+description = "Use your creativity and learn about the SDGs at the same time."
+url = "/campaigns/sdg-colours"
