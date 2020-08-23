@@ -80,3 +80,5 @@ fields:
         format: html-blocks
     label: CTA URL
   label: Call to action
+pages:
+- content/campaigns/sdg-colours.md
