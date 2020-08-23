@@ -19,3 +19,5 @@ The SDG Coloring Book includes illustrations that can be used by anyone who wish
 Use your creativity and come up with your own version of the illustrations. All illustrations feature the number of the goal its representing.
 
 The SDG Coloring Book was created by SDSN Youth in Northern Europe and the Gothenburg Centre for Sustainable Development.
+
+[You can download the SDG Coloring book here](https://www.unsdsn-ne.org/sdg-coloring-book/).
