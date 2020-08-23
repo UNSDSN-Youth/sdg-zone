@@ -1,0 +1,84 @@
+---
+label: Post
+hide_body: false
+fields:
+- name: category
+  type: select
+  default: ''
+  config:
+    required: true
+    options:
+    - Learn
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Category
+- type: datetime
+  name: date
+  label: date
+- type: text
+  name: title
+  label: title
+- name: image
+  type: file
+  config:
+    maxSize: 1
+  label: Image
+- name: icon
+  type: file
+  config:
+    maxSize: 0.8
+  label: Icon
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Description
+- name: page_content
+  type: blocks
+  label: Page content
+  template_types: []
+  config:
+    min: 
+    max: 
+- name: feature_image
+  type: file
+  config:
+    maxSize: 1
+  label: Feature Image
+- name: embed_content
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html-blocks
+  label: Embed Content
+- name: call_to_action
+  type: field_group
+  config: {}
+  fields:
+  - name: cta_text
+    type: text
+    config:
+      required: false
+    label: CTA Text
+  - name: cta_url
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: CTA URL
+  label: Call to action
+pages:
+- content/campaigns/sdg-colours.md
