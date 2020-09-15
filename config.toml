@@ -4,28 +4,20 @@ languageCode = "en-us"
 title = "SDG ZONE"
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = "UA-116286786-1"
-
 contentdir = "content"
 datadir = "data"
 layoutdir = "layouts"
 publishdir = "public"
 paginate = 10
 
-
 [params]
-    # Meta
-    title = "SDG Zone"
-	header= " | Your one stop shop for information on the SDGs"
-    author = "Sophia Huynh"
-    description = "A portal made by UN SDSN Youth."
-    keywords = "Hugo, Hugo theme, grid theme, bookmarks, collection"
-
-    # Body background color
-    bodybgcolor = "#ffffff"
-
-
-    # Footer text
-    footertext = "United Nations Sustainable Development Solutions Network Youth"
-    
-
-    
+# Meta
+title = "SDG Zone"
+header = " | Your one stop shop for information on the SDGs"
+author = "Sophia Huynh"
+description = "A portal made by UN SDSN Youth."
+keywords = "Hugo, Hugo theme, grid theme, bookmarks, collection"
+# Body background color
+bodybgcolor = "#ffffff"
+# Footer text
+footertext = "United Nations Sustainable Development Solutions Network Youth"

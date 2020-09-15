@@ -10,4 +10,6 @@ static/images/homepage-boxes/green/.DS_Store
 static/images/homepage-boxes/red/.DS_Store
 static/js/.DS_Store
 themes/.DS_Store
+node_modules/
+package-lock.json
 .DS_Store

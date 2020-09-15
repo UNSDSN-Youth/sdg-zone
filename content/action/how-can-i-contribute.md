@@ -1,15 +1,12 @@
 ---
-title: "How can I contribute to the SDGs?"
+title: 'How can I contribute to the SDGs?'
 date: 2017-05-12T13:00:29+11:00
 draft: false
 ---
 
 {{< images src="/images/blog-images/lazy-persons-guide.gif" >}}
 
-
-
 End extreme poverty. Fight inequality and injustice. Fix climate change. Whoa. The Sustainable Development Goals are important, world-changing objectives that will require cooperation among governments, international organizations and world leaders. It seems impossible that the average person can make an impact. Should you just give up?
-
 
 No! Change starts with you. Seriously. Every human on earth—even the most indifferent, laziest person among us—is part of the solution. Fortunately, there are some super easy things we can adopt into our routines that, if we all do it, will make a big difference.
 Have a look at just a few of the many things you can do to make an impact:
@@ -18,6 +15,7 @@ Have a look at just a few of the many things you can do to make an impact:
 {{< padding >}}
 {{< images src="/images/blog-images/lazy-guide-art-1.png" >}}
 THINGS YOU CAN DO FROM YOUR COUCH
+
 ---
 
 -   Save electricity by plugging appliances into a power strip and turning them off completely when not in use, including your computer.
@@ -40,14 +38,13 @@ THINGS YOU CAN DO FROM YOUR COUCH
 
 -   Tell us about your actions to achieve the global goals by using the hashtag #globalgoals on social networks.
 
-
 In addition to the above, offset your remaining carbon emissions! You can calculate your carbon footprint and purchase climate credits from [Climate Neutral Now](http://climateneutralnow.org/Pages/How.aspx). In this way, you help reduce global emissions faster!”
-
 
 {{< padding >}}
 {{< padding >}}
 {{< images src="/images/blog-images/lazy-guide-art-2.png" >}}
 THINGS YOU CAN DO AT HOME
+
 ---
 
 -   Air dry. Let your hair and clothes dry naturally instead of running a machine. If you do wash your clothes, make sure the load is full.
@@ -88,7 +85,9 @@ THINGS YOU CAN DO AT HOME
 {{< padding >}}
 {{< images src="/images/blog-images/lazy-guide-art-3.png" >}}\
 THINGS YOU CAN OUTSIDE YOUR HOUSE
+
 ---
+
 -   Shop local. Supporting neighbourhood businesses keeps people employed and helps prevent trucks from driving far distances.
 
 -   Shop Smart—plan meals, use shopping lists and avoid impulse buys. Don’t succumb to marketing tricks that lead you to buy more food than you need, particularly for perishable items. Though these may be less expensive per ounce, they can be more expensive overall if much of that food is discarded.
@@ -117,12 +116,13 @@ THINGS YOU CAN OUTSIDE YOUR HOUSE
 
 -   Take advantage of your right to elect the leaders in your country and local community.
 
-
 {{< padding >}}
 {{< padding >}}
 {{< images src="/images/blog-images/lazy-guide-art-4.png" >}}
 THINGS YOU CAN DO AT WORK
+
 ---
+
 -   If you have a fruit or snack that you don’t want, don’t throw it out. Give it away to someone who needs and is asking for help.
 
 -   Does everyone at work have access to healthcare? Find out what your rights are to work. Fight against inequality.
@@ -164,4 +164,4 @@ THINGS YOU CAN DO AT WORK
 
 {{< facebook facebook-id="https://www.facebook.com/worldeconomicforum/videos/10155155806976479/" >}}
 
-*Video credit: World Economic Forum*
+_Video credit: World Economic Forum_

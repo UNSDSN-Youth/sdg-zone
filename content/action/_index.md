@@ -1,3 +1,1 @@
-
-**Act** on the Sustainable Development Goals
----
+## **Act** on the Sustainable Development Goals
