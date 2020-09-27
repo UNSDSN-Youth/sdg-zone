@@ -18,7 +18,7 @@ Install prettier with your favourite package manager, e.g:
 `npm install prettier prettier-plugin-go-template prettier-plugin-go-template`
 
 Run the linter on all relevant files:
-`npx prettier prettier-plugin-toml prettier-plugin-go-template --write "**/*.{md,css,toml,js,json,jsx}"`
+`npx prettier prettier-plugin-toml prettier-plugin-go-template --write "**/*.{md,css,toml,js,json,jsx,html}"`
 
 Include prettier in your text editor to automatically format files when you save them.
 
