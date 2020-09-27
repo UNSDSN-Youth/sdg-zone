@@ -1,6 +1,14 @@
 {
-  "tabWidth": 4,
-  "useTabs": false,
-  "semi": false,
-  "singleQuote": true
+    "tabWidth": 4,
+    "useTabs": false,
+    "semi": false,
+    "singleQuote": true,
+    "overrides": [
+        {
+            "files": ["*.html"],
+            "options": {
+                "parser": "go-template"
+            }
+        }
+    ]
 }

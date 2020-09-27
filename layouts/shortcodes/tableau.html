@@ -1,33 +1,44 @@
 <tableau>
-        <div class='tableauPlaceholder' id='{{ .Get `id` }}' style='position: relative'>
-                <noscript>
-                <a href='#'>
-                <img alt='REGIONAL DASHBOARDS ' src='{{ .Get `static-img-src` }}' style='border: none' />
-                </a>
-                </noscript>
-                <object class='tableauViz'  style='display:none;'>
-        
-                <param name='host_url' value='{{ .Get `host-url` }}' /> 
-                <param name='embed_code_version' value='3' /> 
-                <param name='site_root' value='' />
-                <param name='name' value='SDGIndex2017RegionalDashboards_DRAFT&#47;REGIONALDASHBOARDS' />
-                <param name='tabs' value='no' /><param name='toolbar' value='no' />
-                <param name='static_image' value='{{ .Get `static-img` }}' /> 
-                <param name='animate_transition' value='yes' />
-                <param name='display_static_image' value='yes' />
-                <param name='display_spinner' value='yes' />
-                <param name='display_overlay' value='yes' />
-                <param name='display_count' value='yes' />
-                </object>
-                </div>   
-             
-<script type='text/javascript'>                    
-var divElement = document.getElementById('{{ .Get `id` }}');                    
-var vizElement = divElement.getElementsByTagName('object')[0];                    
-vizElement.style.width='950px';vizElement.style.height='2157px';      
-vizElement.style.overflow='scroll';              
-var scriptElement = document.createElement('script');                    
-scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
-vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+    <div
+        class="tableauPlaceholder"
+        id="{{ .Get `id` }}"
+        style="position: relative"
+    >
+        <noscript>
+            <a href="#">
+                <img
+                    alt="REGIONAL DASHBOARDS "
+                    src="{{ .Get `static-img-src` }}"
+                    style="border: none"
+                />
+            </a>
+        </noscript>
+        <object class="tableauViz" style="display:none;">
+            <param name="host_url" value="{{ .Get `host-url` }}" />
+            <param name="embed_code_version" value="3" />
+            <param name="site_root" value="" />
+            <param
+                name="name"
+                value="SDGIndex2017RegionalDashboards_DRAFT&#47;REGIONALDASHBOARDS"
+            />
+            <param name="tabs" value="no" />
+            <param name="toolbar" value="no" />
+            <param name="static_image" value="{{ .Get `static-img` }}" />
+            <param name="animate_transition" value="yes" />
+            <param name="display_static_image" value="yes" />
+            <param name="display_spinner" value="yes" />
+            <param name="display_overlay" value="yes" />
+            <param name="display_count" value="yes" />
+        </object>
+    </div>
+
+    <script type='text/javascript'>
+var divElement = document.getElementById('{{ .Get `id` }}');
+var vizElement = divElement.getElementsByTagName('object')[0];
+vizElement.style.width='950px';vizElement.style.height='2157px';
+vizElement.style.overflow='scroll';
+var scriptElement = document.createElement('script');
+scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+vizElement.parentNode.insertBefore(scriptElement, vizElement);
 </script>
-</tableau>   
+</tableau>

@@ -1,93 +1,109 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <!--
 	SDG ZONE
 	tech@sdsnyouth.org 
 -->
 <html>
-	<head>
-		<title>SDG ZONE</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		{{ partial "head.html" . }}
-		{{ template "_internal/google_analytics.html" . }}
-	</head>
-	<body>
-		<!-- Wrapper -->
-			<div id="wrapper">
+    <head>
+        <title>SDG ZONE</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        {{ partial "head.html" . }}
+        {{ template "_internal/google_analytics.html" . }}
+    </head>
+    <body>
+        <!-- Wrapper -->
+        <div id="wrapper">
+            <!-- Header -->
+            <header id="header">
+                <div class="inner">
+                    {{ partial "header.html" . }}
+                </div>
+            </header>
 
-				<!-- Header -->
-					<header id="header">
-						<div class="inner">
-								{{ partial "header.html" . }}
-						</div>
-					</header>
+            <!-- Main -->
+            <div id="main">
+                <div class="inner">
+                    <section id="banner" class="major">
+                        <div class="banner-inner">
+                            {{ range $.Site.Data.quotes.quotes }}
+                                <div class="famous-quotes-slide">
+                                    <div class="quote">
+                                        <h1>
+                                            "{{ .quote1 }}<b>{{ .quote2 }}</b>{{ .quote3 }}<b>{{ .quote4 }}</b>{{ .quote5 }}"
+                                        </h1>
+                                    </div>
+                                    <img src="{{ .image }}" />
+                                    <div class="author">
+                                        <b>{{ .name }}</b>
+                                        <p>{{ .title }}</p>
+                                    </div>
+                                </div>
+                            {{ end }}
+                            <a href="#tiles" class="button">Get Started</a>
+                            <a
+                                href="{{ $.Site.BaseURL }}/campaigns/financing-gap"
+                                class="button"
+                                >Learn about SDG Financing</a
+                            >
+                        </div>
+                    </section>
+                    <section id="tiles">
+                        <div class="tiles-category">
+                            LEARN<span class="title-thin"> ABOUT THE SDGs</span>
+                        </div>
+                        {{ range $.Site.Data.boxes.learn }}
+                            {{ partial "boxes.html" . }}
+                        {{ end }}
+                    </section>
+                    <section id="tiles">
+                        <div class="tiles-category">
+                            ENGAGE<span class="title-thin"> WITH THE SDGs</span>
+                        </div>
+                        {{ range $.Site.Data.boxes.engage }}
+                            {{ partial "boxes.html" . }}
+                        {{ end }}
+                    </section>
+                    <section id="tiles">
+                        <div class="tiles-category">
+                            ACT<span class="title-thin"> ON THE SDGs</span>
+                        </div>
+                        {{ range $.Site.Data.boxes.action }}
+                            {{ partial "boxes.html" . }}
+                        {{ end }}
+                    </section>
+                    <section id="tiles">
+                        <div class="tiles-category">
+                            SECTOR<span class="title-thin">
+                                - HOW CAN YOU GET INVOLVED?</span
+                            >
+                        </div>
+                        {{ range $.Site.Data.boxes.sector }}
+                            {{ partial "boxes.html" . }}
+                        {{ end }}
+                    </section>
+                    <section id="tiles">
+                        <div class="tiles-category">
+                            CAMPAIGNS<span class="title-thin">
+                                - SDSN YOUTH CAMPAIGNS</span
+                            >
+                        </div>
+                        {{ range $.Site.Data.boxes.campaign }}
+                            {{ partial "boxes.html" . }}
+                        {{ end }}
+                    </section>
+                </div>
+            </div>
 
-				<!-- Main -->
-					<div id="main">
-						<div class="inner">
-							<section id="banner" class="major">
-								<div class="banner-inner">
-									{{ range $.Site.Data.quotes.quotes }}
-									<div class="famous-quotes-slide">
-										<div class="quote">
-											<h1>"{{ .quote1 }}<b>{{ .quote2 }}</b>{{ .quote3 }}<b>{{ .quote4 }}</b>{{ .quote5 }}"</h1>
-										</div>
-										<img src="{{.image}}"/>
-										<div class="author">
-											<b>{{.name}}</b>
-											<p>{{.title}}</p>
-										</div>
-									</div>
-									{{ end }}
-									<a href="#tiles" class="button">Get Started</a>
-									<a href="{{ $.Site.BaseURL }}/campaigns/financing-gap" class="button">Learn about SDG Financing</a>
-								</div>
-							</section>
-							<section id="tiles">
-								<div class="tiles-category">LEARN<span class="title-thin"> ABOUT THE SDGs</span></div>
-									{{ range $.Site.Data.boxes.learn }}
-										{{ partial "boxes.html" . }}
-									{{ end }}
-							</section>
-							<section id="tiles">
-								<div class="tiles-category">ENGAGE<span class="title-thin"> WITH THE SDGs</span></div>
-									{{ range $.Site.Data.boxes.engage }}
-										{{ partial "boxes.html" . }}
-									{{ end }}
-							</section>
-							<section id="tiles">
-								<div class="tiles-category">ACT<span class="title-thin"> ON THE SDGs</span></div>
-									{{ range $.Site.Data.boxes.action }}
-										{{ partial "boxes.html" . }}
-									{{ end }}
-							</section>
-							<section id="tiles">
-								<div class="tiles-category">SECTOR<span class="title-thin"> - HOW CAN YOU GET INVOLVED?</span></div>
-									{{ range $.Site.Data.boxes.sector }}
-										{{ partial "boxes.html" . }}
-									{{ end }}
-							</section>
-							<section id="tiles">
-									<div class="tiles-category">CAMPAIGNS<span class="title-thin"> - SDSN YOUTH CAMPAIGNS</span></div>
-										{{ range $.Site.Data.boxes.campaign }}
-											{{ partial "boxes.html" . }}
-										{{ end }}
-								</section>
-						</div>
-					</div>
+            <!-- Footer -->
+            <footer id="footer">
+                <div class="inner">
+                    {{ partial "footer.html" . }}
+                </div>
+            </footer>
+        </div>
 
-				<!-- Footer -->
-					<footer id="footer">
-						<div class="inner">
-								{{ partial "footer.html" . }}
-						</div>
-					</footer>
-			</div>
-			
-
-		<!-- Scripts -->
-		{{ partial "scripts.html" . }}
-
-
-	</body>
+        <!-- Scripts -->
+        {{ partial "scripts.html" . }}
+    </body>
 </html>
