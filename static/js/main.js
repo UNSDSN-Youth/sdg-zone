@@ -4,197 +4,153 @@
 	Free for personal and commercial use under the CCA 3.0 license (tech@sdsnyouth.org/license)
 */
 
-(function($) {
+;(function ($) {
+    skel.breakpoints({
+        xlarge: '(max-width: 1680px)',
+        large: '(max-width: 1280px)',
+        medium: '(max-width: 980px)',
+        small: '(max-width: 736px)',
+        xsmall: '(max-width: 480px)',
+    })
 
-	skel.breakpoints({
-		xlarge:	'(max-width: 1680px)',
-		large:	'(max-width: 1280px)',
-		medium:	'(max-width: 980px)',
-		small:	'(max-width: 736px)',
-		xsmall:	'(max-width: 480px)'
-	});
+    $(function () {
+        var $window = $(window),
+            $body = $('body')
 
-	$(function() {
+        // Disable animations/transitions until the page has loaded.
+        $body.addClass('is-loading')
 
-		var	$window = $(window),
-			$body = $('body');
+        $window.on('load', function () {
+            window.setTimeout(function () {
+                $body.removeClass('is-loading')
+            }, 100)
+        })
 
-		// Disable animations/transitions until the page has loaded.
-			$body.addClass('is-loading');
+        // Touch?
+        if (skel.vars.mobile) $body.addClass('is-touch')
 
-			$window.on('load', function() {
-				window.setTimeout(function() {
-					$body.removeClass('is-loading');
-				}, 100);
-			});
+        // Forms.
+        var $form = $('form')
 
-		// Touch?
-			if (skel.vars.mobile)
-				$body.addClass('is-touch');
+        // Auto-resizing textareas.
+        $form.find('textarea').each(function () {
+            var $this = $(this),
+                $wrapper = $('<div class="textarea-wrapper"></div>'),
+                $submits = $this.find('input[type="submit"]')
 
-		// Forms.
-			var $form = $('form');
+            $this
+                .wrap($wrapper)
+                .attr('rows', 1)
+                .css('overflow', 'hidden')
+                .css('resize', 'none')
+                .on('keydown', function (event) {
+                    if (event.keyCode == 13 && event.ctrlKey) {
+                        event.preventDefault()
+                        event.stopPropagation()
 
-			// Auto-resizing textareas.
-				$form.find('textarea').each(function() {
+                        $(this).blur()
+                    }
+                })
+                .on('blur focus', function () {
+                    $this.val($.trim($this.val()))
+                })
+                .on('input blur focus --init', function () {
+                    $wrapper.css('height', $this.height())
 
-					var $this = $(this),
-						$wrapper = $('<div class="textarea-wrapper"></div>'),
-						$submits = $this.find('input[type="submit"]');
+                    $this
+                        .css('height', 'auto')
+                        .css('height', $this.prop('scrollHeight') + 'px')
+                })
+                .on('keyup', function (event) {
+                    if (event.keyCode == 9) $this.select()
+                })
+                .triggerHandler('--init')
 
-					$this
-						.wrap($wrapper)
-						.attr('rows', 1)
-						.css('overflow', 'hidden')
-						.css('resize', 'none')
-						.on('keydown', function(event) {
+            // Fix.
+            if (skel.vars.browser == 'ie' || skel.vars.mobile)
+                $this.css('max-height', '10em').css('overflow-y', 'auto')
+        })
 
-							if (event.keyCode == 13
-							&&	event.ctrlKey) {
+        // Fix: Placeholder polyfill.
+        $form.placeholder()
 
-								event.preventDefault();
-								event.stopPropagation();
+        // Prioritize "important" elements on medium.
+        skel.on('+medium -medium', function () {
+            $.prioritize(
+                '.important\\28 medium\\29',
+                skel.breakpoint('medium').active
+            )
+        })
 
-								$(this).blur();
+        // Menu.
+        var $menu = $('#menu')
 
-							}
+        $menu.wrapInner('<div class="inner"></div>')
 
-						})
-						.on('blur focus', function() {
-							$this.val($.trim($this.val()));
-						})
-						.on('input blur focus --init', function() {
+        $menu._locked = false
 
-							$wrapper
-								.css('height', $this.height());
+        $menu._lock = function () {
+            if ($menu._locked) return false
 
-							$this
-								.css('height', 'auto')
-								.css('height', $this.prop('scrollHeight') + 'px');
+            $menu._locked = true
 
-						})
-						.on('keyup', function(event) {
+            window.setTimeout(function () {
+                $menu._locked = false
+            }, 350)
 
-							if (event.keyCode == 9)
-								$this
-									.select();
+            return true
+        }
 
-						})
-						.triggerHandler('--init');
+        $menu._show = function () {
+            if ($menu._lock()) $body.addClass('is-menu-visible')
+        }
 
-					// Fix.
-						if (skel.vars.browser == 'ie'
-						||	skel.vars.mobile)
-							$this
-								.css('max-height', '10em')
-								.css('overflow-y', 'auto');
+        $menu._hide = function () {
+            if ($menu._lock()) $body.removeClass('is-menu-visible')
+        }
 
-				});
+        $menu._toggle = function () {
+            if ($menu._lock()) $body.toggleClass('is-menu-visible')
+        }
 
-			// Fix: Placeholder polyfill.
-				$form.placeholder();
+        $menu
+            .appendTo($body)
+            .on('click', function (event) {
+                event.stopPropagation()
+            })
+            .on('click', 'a', function (event) {
+                var href = $(this).attr('href')
 
-		// Prioritize "important" elements on medium.
-			skel.on('+medium -medium', function() {
-				$.prioritize(
-					'.important\\28 medium\\29',
-					skel.breakpoint('medium').active
-				);
-			});
+                event.preventDefault()
+                event.stopPropagation()
 
-		// Menu.
-			var $menu = $('#menu');
+                // Hide.
+                $menu._hide()
 
-			$menu.wrapInner('<div class="inner"></div>');
+                // Redirect.
+                if (href == '#menu') return
 
-			$menu._locked = false;
+                window.setTimeout(function () {
+                    window.location.href = href
+                }, 350)
+            })
+            .append('<a class="close" href="#menu">Close</a>')
 
-			$menu._lock = function() {
+        $body
+            .on('click', 'a[href="#menu"]', function (event) {
+                event.stopPropagation()
+                event.preventDefault()
 
-				if ($menu._locked)
-					return false;
-
-				$menu._locked = true;
-
-				window.setTimeout(function() {
-					$menu._locked = false;
-				}, 350);
-
-				return true;
-
-			};
-
-			$menu._show = function() {
-
-				if ($menu._lock())
-					$body.addClass('is-menu-visible');
-
-			};
-
-			$menu._hide = function() {
-
-				if ($menu._lock())
-					$body.removeClass('is-menu-visible');
-
-			};
-
-			$menu._toggle = function() {
-
-				if ($menu._lock())
-					$body.toggleClass('is-menu-visible');
-
-			};
-
-			$menu
-				.appendTo($body)
-				.on('click', function(event) {
-					event.stopPropagation();
-				})
-				.on('click', 'a', function(event) {
-
-					var href = $(this).attr('href');
-
-					event.preventDefault();
-					event.stopPropagation();
-
-					// Hide.
-						$menu._hide();
-
-					// Redirect.
-						if (href == '#menu')
-							return;
-
-						window.setTimeout(function() {
-							window.location.href = href;
-						}, 350);
-
-				})
-				.append('<a class="close" href="#menu">Close</a>');
-
-			$body
-				.on('click', 'a[href="#menu"]', function(event) {
-
-					event.stopPropagation();
-					event.preventDefault();
-
-					// Toggle.
-						$menu._toggle();
-
-				})
-				.on('click', function(event) {
-
-					// Hide.
-						$menu._hide();
-
-				})
-				.on('keydown', function(event) {
-
-					// Hide on escape.
-						if (event.keyCode == 27)
-							$menu._hide();
-
-				});
-
-	});
-
-})(jQuery);
+                // Toggle.
+                $menu._toggle()
+            })
+            .on('click', function (event) {
+                // Hide.
+                $menu._hide()
+            })
+            .on('keydown', function (event) {
+                // Hide on escape.
+                if (event.keyCode == 27) $menu._hide()
+            })
+    })
+})(jQuery)

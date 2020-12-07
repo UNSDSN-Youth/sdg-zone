@@ -1,305 +1,959 @@
-
 <!DOCTYPE html>
 <html>
-	<head>
+    <head>
         {{ partial "financing-head.html" . }}
-	</head>
-  <body>
-    <!-- Wrapper -->
+    </head>
+    <body>
+        <!-- Wrapper -->
         <div id="wrapper">
-            
-
-    <!-- Intro -->
-        <section class="intro">
+            <!-- Intro -->
+            <section class="intro">
                 <header class="left-pane">
                     <h1>Move Humanity</h1>
-                    <p>Powered by <a href="https://sdgzone.com">sdgzone.com</a> / <a href="https://sdsnyouth.org">sdsnyouth.org</a></p>
+                    <p>
+                        Powered by
+                        <a href="https://sdgzone.com">sdgzone.com</a> /
+                        <a href="https://sdsnyouth.org">sdsnyouth.org</a>
+                    </p>
                     <ul class="actions">
-                        <li><a href="#first" class="arrow scrolly"><span class="label">Learn more</span></a></li>
+                        <li>
+                            <a href="#first" class="arrow scrolly"
+                                ><span class="label">Learn more</span></a
+                            >
+                        </li>
                     </ul>
                 </header>
                 <div class="content">
-                        {{ range $.Site.Data.financingquotes.quotes }}
+                    {{ range $.Site.Data.financingquotes.quotes }}
                         <div class="famous-quotes-slide">
                             <div class="quote">
-                                <h3>"{{ .quote1 }}<strong>{{ .quote2 }}</strong>{{ .quote3 }}<strong>{{ .quote4 }}</strong>{{ .quote5 }}"</h3>
+                                <h3>
+                                    "{{ .quote1 }}<strong>{{ .quote2 }}</strong>{{ .quote3 }}<strong>{{ .quote4 }}</strong>{{ .quote5 }}"
+                                </h3>
                             </div>
-                            <img src="{{ $.Site.BaseURL }}/{{.image}}"/>
+                            <img src="{{ $.Site.BaseURL }}/{{ .image }}" />
                             <div class="author">
-                                <b>{{.name}}</b>
-                                <p>{{.title}}</p>
+                                <b>{{ .name }}</b>
+                                <p>{{ .title }}</p>
                             </div>
                         </div>
-                        {{ end }}
-                    <a href="{{ $.Site.BaseURL }}/documents/Move Humanity Campaign Report.pdf" class="button movehumanity-button" style="margin-top: 11%;">Read the summary of Move Humanity 2018</a>
+                    {{ end }}
+                    <a
+                        href="{{ $.Site.BaseURL }}/documents/Move Humanity Campaign Report.pdf"
+                        class="button movehumanity-button"
+                        style="margin-top: 11%"
+                        >Read the summary of Move Humanity 2018</a
+                    >
                 </div>
             </section>
-    
-        <!-- Section -->
+
+            <!-- Section -->
             <section id="first">
                 <header class="left-pane">
                     <h2>We must Move Humanity.</h2>
                 </header>
                 <div class="content">
-                        <p>
-                        Around the world today, more than <strong>1 billion people</strong> live in extreme poverty and lack access to clean water, electricity and basic health care. Around <strong>263 million children and youth</strong> are out of school. More than <strong>6 million children</strong> die each year before the age of 5. But, we can change this. 
-                        </p>
-                        <p>
-                        In 2015, 139 countries signed up to the Sustainable Development Goals - a set of 17 objectives aimed at ending extreme poverty, promoting justice, peace and prosperity for all, and protecting the natural environment - all by the year 2030. Everybody - not just governments - is coming together to work towards these common goals. To learn more about the Sustainable Development Goals, visit <a href="https://sdgzone.com">SDG ZONE</a>.
-                        </p>
-
-                        <p>
-                        If we achieve the SDGs, it would mean universal healthcare will be available to all, every child will have the opportunity to gain a quality education, no one will be forced to go to bed hungry, and much more. But making the SDGs a reality requires significant investment.
-                        </p>
-                        <p>
-                        It is estimated that the world needs to spend between <strong>$5-7 trillion USD</strong> each year to meet the SDGs, with a <strong>financing gap of around $2.5 trillion USD</strong> for low-income countries. Luckily, there is enough wealth in the world to help achieve these goals and fill the financing gap. 
-                        </p>
-                        <p>
-                        There are currently 2,208 billionaires in the world today. Their combined net worth amounts to approximately $9.1 trillion. If every billionaire pledged just 1% of their wealth, that would be enough to close about <strong>one third</strong> of the SDG financing gap in the world’s lowest income countries, and:
-                        </p>
-    
-                        <div class="icon-grid">
-                            <ul>
-                                <li>
-                                    <i class="fas fa-hand-holding-usd"></i>
-                                    <span>Bring 1 billion humans out of poverty</span>
-                                </li>
-                                <li>
-                                    <i class="fas fa-graduation-cap"></i>
-                                    <span>Save 6 million children from preventable diseases</span>
-                                </li>
-                                <li>
-                                    <i class="fas fa-syringe"></i>
-                                    <span>Put 263 million children through school</span>
-                                </li>
-                            </ul>
-                        </div>  
-    
-                        <ul class="actions">
-                            <li><a href="https://movehumanity.org/" class="button large" type="cta">Learn More</a></li>
-                        </ul>
-       
-                </div>
-            </section>
-
-                        <!-- Section -->
-            <section>
-                <header class="left-pane">
-                    <h2>Sign the pledge to ask the world’s richest to help end extreme poverty</h2>
-                </header>
-                <div class="content">
                     <p>
-                        Add your name to the list of people calling on the billionaires of the world to contribute to making the SDGs a reality
+                        Around the world today, more than
+                        <strong>1 billion people</strong> live in extreme
+                        poverty and lack access to clean water, electricity and
+                        basic health care. Around
+                        <strong>263 million children and youth</strong> are out
+                        of school. More than
+                        <strong>6 million children</strong> die each year before
+                        the age of 5. But, we can change this.
                     </p>
+                    <p>
+                        In 2015, 139 countries signed up to the Sustainable
+                        Development Goals - a set of 17 objectives aimed at
+                        ending extreme poverty, promoting justice, peace and
+                        prosperity for all, and protecting the natural
+                        environment - all by the year 2030. Everybody - not just
+                        governments - is coming together to work towards these
+                        common goals. To learn more about the Sustainable
+                        Development Goals, visit
+                        <a href="https://sdgzone.com">SDG ZONE</a>.
+                    </p>
+
+                    <p>
+                        If we achieve the SDGs, it would mean universal
+                        healthcare will be available to all, every child will
+                        have the opportunity to gain a quality education, no one
+                        will be forced to go to bed hungry, and much more. But
+                        making the SDGs a reality requires significant
+                        investment.
+                    </p>
+                    <p>
+                        It is estimated that the world needs to spend between
+                        <strong>$5-7 trillion USD</strong> each year to meet the
+                        SDGs, with a
+                        <strong
+                            >financing gap of around $2.5 trillion USD</strong
+                        >
+                        for low-income countries. Luckily, there is enough
+                        wealth in the world to help achieve these goals and fill
+                        the financing gap.
+                    </p>
+                    <p>
+                        There are currently 2,208 billionaires in the world
+                        today. Their combined net worth amounts to approximately
+                        $9.1 trillion. If every billionaire pledged just 1% of
+                        their wealth, that would be enough to close about
+                        <strong>one third</strong> of the SDG financing gap in
+                        the world’s lowest income countries, and:
+                    </p>
+
+                    <div class="icon-grid">
+                        <ul>
+                            <li>
+                                <i class="fas fa-hand-holding-usd"></i>
+                                <span
+                                    >Bring 1 billion humans out of poverty</span
+                                >
+                            </li>
+                            <li>
+                                <i class="fas fa-graduation-cap"></i>
+                                <span
+                                    >Save 6 million children from preventable
+                                    diseases</span
+                                >
+                            </li>
+                            <li>
+                                <i class="fas fa-syringe"></i>
+                                <span
+                                    >Put 263 million children through
+                                    school</span
+                                >
+                            </li>
+                        </ul>
+                    </div>
+
                     <ul class="actions">
-                        <li><a href="https://www.globalcitizen.org/en/action/sign-ask-billionaires-help-end-extreme-poverty/" class="button large">Sign the pledge</a></li>
+                        <li>
+                            <a
+                                href="https://movehumanity.org/"
+                                class="button large"
+                                type="cta"
+                                >Learn More</a
+                            >
+                        </li>
                     </ul>
                 </div>
             </section>
 
-                <section>
-                    <header class="left-pane">
-                        <h2>Everyone has a role to play - let's mobilize billions for billions.</h2>
-                    </header>
-                    <div class="content">
-                        <div class="image fit">
-                            <a href="https://public.tableau.com/views/SDGFinancingxMoveHumanityCampaign-SDSNYouth/SDGFinancingxMoveHumanityCampaign-SDSNYouth?:embed=y&:display_count=yes&publish=yes" >
-                                <img src="{{ $.Site.BaseURL }}/images/move-humanity/move-humanity-events-2018.png" />
-                            </a>
-                        </div>
+            <!-- Section -->
+            <section>
+                <header class="left-pane">
+                    <h2>
+                        Sign the pledge to ask the world’s richest to help end
+                        extreme poverty
+                    </h2>
+                </header>
+                <div class="content">
+                    <p>
+                        Add your name to the list of people calling on the
+                        billionaires of the world to contribute to making the
+                        SDGs a reality
+                    </p>
+                    <ul class="actions">
+                        <li>
+                            <a
+                                href="https://www.globalcitizen.org/en/action/sign-ask-billionaires-help-end-extreme-poverty/"
+                                class="button large"
+                                >Sign the pledge</a
+                            >
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <section>
+                <header class="left-pane">
+                    <h2>
+                        Everyone has a role to play - let's mobilize billions
+                        for billions.
+                    </h2>
+                </header>
+                <div class="content">
+                    <div class="image fit">
+                        <a
+                            href="https://public.tableau.com/views/SDGFinancingxMoveHumanityCampaign-SDSNYouth/SDGFinancingxMoveHumanityCampaign-SDSNYouth?:embed=y&:display_count=yes&publish=yes"
+                        >
+                            <img
+                                src="{{ $.Site.BaseURL }}/images/move-humanity/move-humanity-events-2018.png"
+                            />
+                        </a>
                     </div>
-                </section>
-    
-    
-        <!-- Section -->
+                </div>
+            </section>
+
+            <!-- Section -->
             <section>
                 <header class="left-pane">
                     <h2>Social Media and Events</h2>
                 </header>
                 <div class="content">
-                    <p><strong>Spread the word</strong>. Share any of these graphics onto social media, and take a look at the events we ran in 2018.</p>
-    
+                    <p>
+                        <strong>Spread the word</strong>. Share any of these
+                        graphics onto social media, and take a look at the
+                        events we ran in 2018.
+                    </p>
+
                     <!-- Section -->
-                        <section>
+                    <section>
+                        <div class="content">
+                            <div class="gallery-full">
+                                <h2>
+                                    Interview with Move Humanity Founder,
+                                    Djaffar Shalchi
+                                </h2>
+                                <iframe
+                                    src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FSDSNYouthinNE%2Fvideos%2F368059100610877%2F&show_text=0&width=476"
+                                    width="100%"
+                                    height="700"
+                                    style="border: none; overflow: hidden"
+                                    scrolling="no"
+                                    frameborder="0"
+                                    allowTransparency="true"
+                                    allowfullscreen="true"
+                                ></iframe>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <header class="left-pane">
+                            <h3>
+                                SDSN Youth Australia, New Zealand and Pacific
+                            </h3>
+                            <p>Infographics</p>
+                        </header>
+                        <div class="content">
+                            <div class="gallery">
+                                <a
+                                    href="{{ .Site.BaseURL }}/images/move-humanity/ausnz-info.png"
+                                    ><img
+                                        src="{{ .Site.BaseURL }}/images/move-humanity/ausnz-info.png"
+                                        alt="Billionaires in Australia and New Zealand"
+                                /></a>
+                            </div>
+                            <h6>Billionaires in Australia and New Zealand</h6>
+                        </div>
+                    </section>
+                    <section>
+                        <header class="left-pane">
+                            <h3>SDSN Youth Northern Europe</h3>
+                            <p>Short videos</p>
+                        </header>
+                        <div class="content">
+                            <div class="gallery">
+                                <blockquote
+                                    class="twitter-tweet"
+                                    data-lang="en"
+                                >
+                                    <p lang="en" dir="ltr">
+                                        With the superrich 1% net worth we can -
+                                        save 6 million children per year from
+                                        dying of preventable diseases. Let’s do
+                                        it now! <br />
+                                        <a
+                                            href="https://twitter.com/hashtag/movehumanity?src=hash&amp;ref_src=twsrc%5Etfw"
+                                            >#movehumanity</a
+                                        >
+                                        <a
+                                            href="https://twitter.com/humanact_dk?ref_src=twsrc%5Etfw"
+                                            >@humanact_dk</a
+                                        >
+                                        <a
+                                            href="https://twitter.com/UNSDSN?ref_src=twsrc%5Etfw"
+                                            >@UNSDSN</a
+                                        >
+                                        <a
+                                            href="https://twitter.com/SDSNYouth?ref_src=twsrc%5Etfw"
+                                            >@SDSNYouth</a
+                                        >
+                                        <a
+                                            href="https://twitter.com/SDSNNE?ref_src=twsrc%5Etfw"
+                                            >@SDSNNE</a
+                                        >
+                                        <a
+                                            href="https://twitter.com/hashtag/Youth4sdsg?src=hash&amp;ref_src=twsrc%5Etfw"
+                                            >#Youth4sdsg</a
+                                        >
+                                        <a
+                                            href="https://twitter.com/hashtag/Youth2030?src=hash&amp;ref_src=twsrc%5Etfw"
+                                            >#Youth2030</a
+                                        >
+                                        <a href="https://t.co/ogdEWVZxG6"
+                                            >pic.twitter.com/ogdEWVZxG6</a
+                                        >
+                                    </p>
+                                    &mdash; SDSN Youth in Northern Europe
+                                    (@SDSNYouthinNE)
+                                    <a
+                                        href="https://twitter.com/SDSNYouthinNE/status/1068776753416548353?ref_src=twsrc%5Etfw"
+                                        >December 1, 2018</a
+                                    >
+                                </blockquote>
+                                <script
+                                    async
+                                    src="https://platform.twitter.com/widgets.js"
+                                    charset="utf-8"
+                                ></script>
 
-                            <div class="content">
-                                <div class="gallery-full">
-                                    <h2>Interview with Move Humanity Founder, Djaffar Shalchi</h2>
-                                    <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FSDSNYouthinNE%2Fvideos%2F368059100610877%2F&show_text=0&width=476" width="100%" height="700" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
-                                </div>
-                            </div>
-                        </section>
-                        <section>
-                            <header class="left-pane">
-                                    <h3>SDSN Youth Australia, New Zealand and Pacific</h3>
-                                    <p>Infographics</p>
-                            </header>
-                            <div class="content">
-                                <div class="gallery">
-                                        <a href="{{ .Site.BaseURL }}/images/move-humanity/ausnz-info.png"><img src="{{ .Site.BaseURL }}/images/move-humanity/ausnz-info.png" alt="Billionaires in Australia and New Zealand" /></a>
-                                </div>
-                                <h6>Billionaires in Australia and New Zealand</h6>
-                            </div>
-                        </section>
-                        <section>
-                            <header class="left-pane">
-                                <h3>SDSN Youth Northern Europe</h3>
-                                <p>Short videos</p>
-                            </header>
-                            <div class="content">
-                                <div class="gallery">
-                                        <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">With the superrich 1% net worth we can - save 6 million children per year from dying of preventable diseases. Let’s do it now! <br> <a href="https://twitter.com/hashtag/movehumanity?src=hash&amp;ref_src=twsrc%5Etfw">#movehumanity</a> <a href="https://twitter.com/humanact_dk?ref_src=twsrc%5Etfw">@humanact_dk</a> <a href="https://twitter.com/UNSDSN?ref_src=twsrc%5Etfw">@UNSDSN</a> <a href="https://twitter.com/SDSNYouth?ref_src=twsrc%5Etfw">@SDSNYouth</a> <a href="https://twitter.com/SDSNNE?ref_src=twsrc%5Etfw">@SDSNNE</a> <a href="https://twitter.com/hashtag/Youth4sdsg?src=hash&amp;ref_src=twsrc%5Etfw">#Youth4sdsg</a> <a href="https://twitter.com/hashtag/Youth2030?src=hash&amp;ref_src=twsrc%5Etfw">#Youth2030</a> <a href="https://t.co/ogdEWVZxG6">pic.twitter.com/ogdEWVZxG6</a></p>&mdash; SDSN Youth in Northern Europe (@SDSNYouthinNE) <a href="https://twitter.com/SDSNYouthinNE/status/1068776753416548353?ref_src=twsrc%5Etfw">December 1, 2018</a></blockquote>
-                                        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                                                                        
-                                        <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">With the superrich 1% net worth we can bring 1 billion out of extreme poverty. Let’s do it now! <a href="https://twitter.com/hashtag/movehumanity?src=hash&amp;ref_src=twsrc%5Etfw">#movehumanity</a> <a href="https://twitter.com/hashtag/Youth4SDGs?src=hash&amp;ref_src=twsrc%5Etfw">#Youth4SDGs</a> <a href="https://twitter.com/hashtag/Youth2030?src=hash&amp;ref_src=twsrc%5Etfw">#Youth2030</a> <a href="https://twitter.com/humanact_dk?ref_src=twsrc%5Etfw">@humanact_dk</a> <a href="https://twitter.com/UNSDSN?ref_src=twsrc%5Etfw">@UNSDSN</a> <a href="https://twitter.com/SDSNYouth?ref_src=twsrc%5Etfw">@SDSNYouth</a> <a href="https://twitter.com/SDSNNE?ref_src=twsrc%5Etfw">@SDSNNE</a> <a href="https://t.co/oWwvjybMxf">pic.twitter.com/oWwvjybMxf</a></p>&mdash; SDSN Youth in Northern Europe (@SDSNYouthinNE) <a href="https://twitter.com/SDSNYouthinNE/status/1068414397364744199?ref_src=twsrc%5Etfw">November 30, 2018</a></blockquote>
-                                        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-    
-                                        <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Did you know that the top richest 1% of the world own more than 50% of the world’s total wealth?<a href="https://twitter.com/hashtag/MoveHumanity?src=hash&amp;ref_src=twsrc%5Etfw">#MoveHumanity</a> <a href="https://twitter.com/hashtag/Youth4SDGs?src=hash&amp;ref_src=twsrc%5Etfw">#Youth4SDGs</a> <a href="https://twitter.com/hashtag/Youth2030?src=hash&amp;ref_src=twsrc%5Etfw">#Youth2030</a> <a href="https://twitter.com/humanact_dk?ref_src=twsrc%5Etfw">@humanact_dk</a> <a href="https://twitter.com/UNSDSN?ref_src=twsrc%5Etfw">@UNSDSN</a> <a href="https://twitter.com/SDSNYouth?ref_src=twsrc%5Etfw">@SDSNYouth</a> <a href="https://twitter.com/SDSNNE?ref_src=twsrc%5Etfw">@SDSNNE</a> <a href="https://t.co/OH72qL8FjF">pic.twitter.com/OH72qL8FjF</a></p>&mdash; SDSN Youth in Northern Europe (@SDSNYouthinNE) <a href="https://twitter.com/SDSNYouthinNE/status/1068057706110570497?ref_src=twsrc%5Etfw">November 29, 2018</a></blockquote>
-                                        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-    
-    
-                                        <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Move Humanity is closing the finance gap for the <a href="https://twitter.com/hashtag/SDGs?src=hash&amp;ref_src=twsrc%5Etfw">#SDGs</a>. Let’s end extreme poverty by calling on the top 1% to donate 1% of their wealth to the poor!<a href="https://twitter.com/hashtag/Movehumanity?src=hash&amp;ref_src=twsrc%5Etfw">#Movehumanity</a> <a href="https://twitter.com/UNSDSN?ref_src=twsrc%5Etfw">@UNSDSN</a> <a href="https://twitter.com/SDSNYouth?ref_src=twsrc%5Etfw">@SDSNYouth</a> <a href="https://twitter.com/humanact_dk?ref_src=twsrc%5Etfw">@humanact_dk</a> <a href="https://twitter.com/SDSNNE?ref_src=twsrc%5Etfw">@SDSNNE</a> <a href="https://t.co/DvAB2mOYDc">pic.twitter.com/DvAB2mOYDc</a></p>&mdash; SDSN Youth in Northern Europe (@SDSNYouthinNE) <a href="https://twitter.com/SDSNYouthinNE/status/1067689659046797312?ref_src=twsrc%5Etfw">November 28, 2018</a></blockquote>
-                                        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                                </div>
-                            </div>
-                        </section>
-                        <section>
-                            <header class="left-pane">
-                                <h3>SDSN Youth Republic of Korea</h3>
-                                <p>Move Humanity Conference</p>
-                            </header>
-                            <div class="content">
-                                <div class="gallery-full">
-                                    <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">On December 2nd, 88 participants from 15 institutions attended the <a href="https://twitter.com/hashtag/MoveHumanity?src=hash&amp;ref_src=twsrc%5Etfw">#MoveHumanity</a> conference organized by SDSN Korea in the Korea University 🇰🇷. The panelists discussed important topics such as <a href="https://twitter.com/hashtag/recycling?src=hash&amp;ref_src=twsrc%5Etfw">#recycling</a> ♻, <a href="https://twitter.com/hashtag/sustainability?src=hash&amp;ref_src=twsrc%5Etfw">#sustainability</a> 🌲 and the <a href="https://twitter.com/hashtag/SDGs?src=hash&amp;ref_src=twsrc%5Etfw">#SDGs</a> 🇺🇳 <a href="https://t.co/9o4NkEU7VU">pic.twitter.com/9o4NkEU7VU</a></p>&mdash; SDSN Youth (@SDSNYouth) <a href="https://twitter.com/SDSNYouth/status/1070057618276827137?ref_src=twsrc%5Etfw">December 4, 2018</a></blockquote>
-                                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                                    
-                                </div>
-                            </div>
-                        </section>
-                        <section>
-                            <header class="left-pane">
-                                <h3>SDSN Youth Turkey</h3>
-                                <p>Conference</p>
-                            </header>
-                            <div class="content">
-                                <div class="gallery">
-                                    <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">The Target 2030: Saving the Future (Hedef 2030: Geleceği Kurtarmak) was held on Dec 2nd in Istanbul, Turkey, and talked about the <a href="https://twitter.com/hashtag/SDGs?src=hash&amp;ref_src=twsrc%5Etfw">#SDGs</a> 🌳, <a href="https://twitter.com/hashtag/MoveHumanity?src=hash&amp;ref_src=twsrc%5Etfw">#MoveHumanity</a> 🌎 and <a href="https://twitter.com/hashtag/Volunteering?src=hash&amp;ref_src=twsrc%5Etfw">#Volunteering</a> 🤝. Hundreds of people from all over Turkey attended such special event 🇹🇷 <a href="https://t.co/6P49rSl7F2">pic.twitter.com/6P49rSl7F2</a></p>&mdash; SDSN Youth (@SDSNYouth) <a href="https://twitter.com/SDSNYouth/status/1069918313512386560?ref_src=twsrc%5Etfw">December 4, 2018</a></blockquote>
-                                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
-                                    
-                                    <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">On December 2nd, the <a href="https://twitter.com/hashtag/TOBB?src=hash&amp;ref_src=twsrc%5Etfw">#TOBB</a> Sustainable Development Solutions Network Youth Academy-SDSN hosted a great event on “Mandela 100 Years Celebration” at the <a href="https://twitter.com/Tobbedu?ref_src=twsrc%5Etfw">@Tobbedu</a> (Economy and Technology University), in Ankara 🇹🇷 <a href="https://twitter.com/hashtag/MoveHumanity?src=hash&amp;ref_src=twsrc%5Etfw">#MoveHumanity</a> <a href="https://t.co/8nPGQ6eQN8">pic.twitter.com/8nPGQ6eQN8</a></p>&mdash; SDSN Youth (@SDSNYouth) <a href="https://twitter.com/SDSNYouth/status/1070293619721076737?ref_src=twsrc%5Etfw">December 5, 2018</a></blockquote>
-                                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                                    
-                                </div>
-                            </div>
-                        </section>
-                        <section>
-                            <header class="left-pane">
-                                <h3>SDSN Youth Andes Region</h3>
-                                <p>Workshops</p>
-                            </header>
-                            <div class="content">
-                                <div class="gallery-full">
-                                    <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">On December 2nd a <a href="https://twitter.com/hashtag/MoveHumanity?src=hash&amp;ref_src=twsrc%5Etfw">#MoveHumanity</a> event was launched at Cuenca, Ecuador 🇪🇨 It was an amazing experience with multiple organizations presenting their jobs and young people supporting the campaign.<br>A WYD pilot Workshop was developed and will be replicated on January 24th in Panama 🇵🇦 <a href="https://t.co/YxrJOTkIAL">pic.twitter.com/YxrJOTkIAL</a></p>&mdash; SDSN Youth (@SDSNYouth) <a href="https://twitter.com/SDSNYouth/status/1070646642410430464?ref_src=twsrc%5Etfw">December 6, 2018</a></blockquote>
-                                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                                                                      
-                                </div>
-                            </div>
-                        </section>
-                        <section>
-                            <header class="left-pane">
-                                <h3>SDSN Youth Great Lakes Region</h3>
-                                <p>SDG Financing Conference, Kigali Rwanda</p>
-                            </header>
-                            <div class="content">
-                                <div class="gallery-full">
-                                    <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">A <a href="https://twitter.com/hashtag/MoveHumanity?src=hash&amp;ref_src=twsrc%5Etfw">#MoveHumanity</a> event was hosted on December 6th at the Hilltop Hotel in Kigali, Rwanda, with the theme: &quot;A campaign to close the SDG Financing Gap in The Great Lakes&quot; 🇷🇼 <a href="https://t.co/1JqnY3VINf">pic.twitter.com/1JqnY3VINf</a></p>&mdash; SDSN Youth (@SDSNYouth) <a href="https://twitter.com/SDSNYouth/status/1072098470071361538?ref_src=twsrc%5Etfw">December 10, 2018</a></blockquote>
-                                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                                   
-                                </div>
-                            </div>
-                        </section>
-                        <section>
-                            <header class="left-pane">
-                                <h3>SDSN Youth South East Asia</h3>
-                                <p>Move Humanity Events - Bhutan, Nepal</p>
-                            </header>
-                            <div class="content">
-                                <div class="gallery-full">
-                                    <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Yesterday, the Samtse College of Education organized an event on the <a href="https://twitter.com/hashtag/MoveHumanity?src=hash&amp;ref_src=twsrc%5Etfw">#MoveHumanity</a> conference, &quot;Cleaning Campaign and &quot;Street Night Show&quot;.<br>The president, faculty members, students, teachers and 60 different scout leaders from all parts of Bhutan attended the place 🇧🇹 <a href="https://t.co/N3JyGq5PCY">pic.twitter.com/N3JyGq5PCY</a></p>&mdash; SDSN Youth (@SDSNYouth) <a href="https://twitter.com/SDSNYouth/status/1069664001263591431?ref_src=twsrc%5Etfw">December 3, 2018</a></blockquote>
-                                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                                    
-                                    <blockquote class="twitter-tweet" data-lang="en"><p lang="und" dir="ltr"><a href="https://twitter.com/hashtag/MoveHumanity?src=hash&amp;ref_src=twsrc%5Etfw">#MoveHumanity</a> <a href="https://t.co/D389yEMdOB">pic.twitter.com/D389yEMdOB</a></p>&mdash; SDSN Youth (@SDSNYouth) <a href="https://twitter.com/SDSNYouth/status/1069508101122998274?ref_src=twsrc%5Etfw">December 3, 2018</a></blockquote>
-                                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-               
-                                </div>
-                            </div>
-                        </section>
-                        <section>
-                            <header class="left-pane">
-                                <h3>SDSN Youth Sahel Region</h3>
-                                <p>Move Humanity Events</p>
-                            </header>
-                            <div class="content">
-                                <div class="gallery-full">
-                                    <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Thanks to <a href="https://twitter.com/humanact_dk?ref_src=twsrc%5Etfw">@humanact_dk</a>, <a href="https://twitter.com/SDSNYOUTHSahel?ref_src=twsrc%5Etfw">@SDSNYOUTHSahel</a> hosted <a href="https://twitter.com/hashtag/MoveHumanity?src=hash&amp;ref_src=twsrc%5Etfw">#MoveHumanity</a> event that calls for immediate actions towards the <a href="https://twitter.com/hashtag/SDGs?src=hash&amp;ref_src=twsrc%5Etfw">#SDGs</a>. Youth around the globe are optimistic about bringing a brighter future to the generations to come! Learn more:  <a href="https://t.co/ojsIA6GmDf">https://t.co/ojsIA6GmDf</a> <a href="https://twitter.com/djaffarshalchi?ref_src=twsrc%5Etfw">@djaffarshalchi</a> <a href="https://t.co/SRTXWtNaCq">pic.twitter.com/SRTXWtNaCq</a></p>&mdash; SDSN Youth (@SDSNYouth) <a href="https://twitter.com/SDSNYouth/status/1082726235745251328?ref_src=twsrc%5Etfw">January 8, 2019</a></blockquote>
-                                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                            
-                                </div>
-                            </div>
-                        </section>
-                        <section>
-                            <header class="left-pane">
-                                <h3>SDSN Youth Philipines</h3>
-                                <p>Move Humanity Events</p>
-                            </header>
-                            <div class="content">
-                                <div class="gallery">
-                                    <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FSDSNYouthPH%2Fphotos%2Fa.1656886087972359%2F2163297753997854%2F%3Ftype%3D3&width=500" width="500" height="682" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
-                                    
-                                    <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FSDSNYouthPH%2Fphotos%2Fa.2163739950620301%2F2163741550620141%2F%3Ftype%3D3&width=500" width="500" height="682" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
-                                </div>
-                            </div>
-                        </section>
-                        <section>
-                            <header class="left-pane">
-                                <h3>SDSN Youth Nigeria</h3>
-                                <p>Move Humanity Events</p>
-                            </header>
-                            <div class="content">
-                                <div class="gallery">
-                                    <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">It&#39;s a collective task and responsibility to make the world a better place. The summit released to the world young &amp; passionate individuals to make the world a better place and achieve the <a href="https://twitter.com/hashtag/GlobalGoals?src=hash&amp;ref_src=twsrc%5Etfw">#GlobalGoals</a><a href="https://twitter.com/hashtag/MoveHumanity?src=hash&amp;ref_src=twsrc%5Etfw">#MoveHumanity</a> <a href="https://twitter.com/hashtag/SDGs?src=hash&amp;ref_src=twsrc%5Etfw">#SDGs</a><a href="https://twitter.com/hashtag/Goal2030?src=hash&amp;ref_src=twsrc%5Etfw">#Goal2030</a> <a href="https://t.co/M2ytbXcxMa">pic.twitter.com/M2ytbXcxMa</a></p>&mdash; SDSN Youth Nigeria (@SDSNYouthNG) <a href="https://twitter.com/SDSNYouthNG/status/1069981224490450944?ref_src=twsrc%5Etfw">December 4, 2018</a></blockquote>
-                                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                                    
-                            
-                                    <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Prof.  Dele Layiwola charged participants on the need to change the status quo &amp; take responsibilities for the change we need. He emphasized the need to draw lessons from the life of Nelson Mandela who against all odds fought for the freedom of South Africa. <a href="https://twitter.com/hashtag/SDGs?src=hash&amp;ref_src=twsrc%5Etfw">#SDGs</a> <a href="https://twitter.com/hashtag/MoveHumanity?src=hash&amp;ref_src=twsrc%5Etfw">#MoveHumanity</a> <a href="https://t.co/lyKBvqoAS8">pic.twitter.com/lyKBvqoAS8</a></p>&mdash; SDSN Youth Nigeria (@SDSNYouthNG) <a href="https://twitter.com/SDSNYouthNG/status/1070004228054237184?ref_src=twsrc%5Etfw">December 4, 2018</a></blockquote>
-                                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                                <blockquote
+                                    class="twitter-tweet"
+                                    data-lang="en"
+                                >
+                                    <p lang="en" dir="ltr">
+                                        With the superrich 1% net worth we can
+                                        bring 1 billion out of extreme poverty.
+                                        Let’s do it now!
+                                        <a
+                                            href="https://twitter.com/hashtag/movehumanity?src=hash&amp;ref_src=twsrc%5Etfw"
+                                            >#movehumanity</a
+                                        >
+                                        <a
+                                            href="https://twitter.com/hashtag/Youth4SDGs?src=hash&amp;ref_src=twsrc%5Etfw"
+                                            >#Youth4SDGs</a
+                                        >
+                                        <a
+                                            href="https://twitter.com/hashtag/Youth2030?src=hash&amp;ref_src=twsrc%5Etfw"
+                                            >#Youth2030</a
+                                        >
+                                        <a
+                                            href="https://twitter.com/humanact_dk?ref_src=twsrc%5Etfw"
+                                            >@humanact_dk</a
+                                        >
+                                        <a
+                                            href="https://twitter.com/UNSDSN?ref_src=twsrc%5Etfw"
+                                            >@UNSDSN</a
+                                        >
+                                        <a
+                                            href="https://twitter.com/SDSNYouth?ref_src=twsrc%5Etfw"
+                                            >@SDSNYouth</a
+                                        >
+                                        <a
+                                            href="https://twitter.com/SDSNNE?ref_src=twsrc%5Etfw"
+                                            >@SDSNNE</a
+                                        >
+                                        <a href="https://t.co/oWwvjybMxf"
+                                            >pic.twitter.com/oWwvjybMxf</a
+                                        >
+                                    </p>
+                                    &mdash; SDSN Youth in Northern Europe
+                                    (@SDSNYouthinNE)
+                                    <a
+                                        href="https://twitter.com/SDSNYouthinNE/status/1068414397364744199?ref_src=twsrc%5Etfw"
+                                        >November 30, 2018</a
+                                    >
+                                </blockquote>
+                                <script
+                                    async
+                                    src="https://platform.twitter.com/widgets.js"
+                                    charset="utf-8"
+                                ></script>
 
-                                </div>
+                                <blockquote
+                                    class="twitter-tweet"
+                                    data-lang="en"
+                                >
+                                    <p lang="en" dir="ltr">
+                                        Did you know that the top richest 1% of
+                                        the world own more than 50% of the
+                                        world’s total wealth?<a
+                                            href="https://twitter.com/hashtag/MoveHumanity?src=hash&amp;ref_src=twsrc%5Etfw"
+                                            >#MoveHumanity</a
+                                        >
+                                        <a
+                                            href="https://twitter.com/hashtag/Youth4SDGs?src=hash&amp;ref_src=twsrc%5Etfw"
+                                            >#Youth4SDGs</a
+                                        >
+                                        <a
+                                            href="https://twitter.com/hashtag/Youth2030?src=hash&amp;ref_src=twsrc%5Etfw"
+                                            >#Youth2030</a
+                                        >
+                                        <a
+                                            href="https://twitter.com/humanact_dk?ref_src=twsrc%5Etfw"
+                                            >@humanact_dk</a
+                                        >
+                                        <a
+                                            href="https://twitter.com/UNSDSN?ref_src=twsrc%5Etfw"
+                                            >@UNSDSN</a
+                                        >
+                                        <a
+                                            href="https://twitter.com/SDSNYouth?ref_src=twsrc%5Etfw"
+                                            >@SDSNYouth</a
+                                        >
+                                        <a
+                                            href="https://twitter.com/SDSNNE?ref_src=twsrc%5Etfw"
+                                            >@SDSNNE</a
+                                        >
+                                        <a href="https://t.co/OH72qL8FjF"
+                                            >pic.twitter.com/OH72qL8FjF</a
+                                        >
+                                    </p>
+                                    &mdash; SDSN Youth in Northern Europe
+                                    (@SDSNYouthinNE)
+                                    <a
+                                        href="https://twitter.com/SDSNYouthinNE/status/1068057706110570497?ref_src=twsrc%5Etfw"
+                                        >November 29, 2018</a
+                                    >
+                                </blockquote>
+                                <script
+                                    async
+                                    src="https://platform.twitter.com/widgets.js"
+                                    charset="utf-8"
+                                ></script>
+
+                                <blockquote
+                                    class="twitter-tweet"
+                                    data-lang="en"
+                                >
+                                    <p lang="en" dir="ltr">
+                                        Move Humanity is closing the finance gap
+                                        for the
+                                        <a
+                                            href="https://twitter.com/hashtag/SDGs?src=hash&amp;ref_src=twsrc%5Etfw"
+                                            >#SDGs</a
+                                        >. Let’s end extreme poverty by calling
+                                        on the top 1% to donate 1% of their
+                                        wealth to the poor!<a
+                                            href="https://twitter.com/hashtag/Movehumanity?src=hash&amp;ref_src=twsrc%5Etfw"
+                                            >#Movehumanity</a
+                                        >
+                                        <a
+                                            href="https://twitter.com/UNSDSN?ref_src=twsrc%5Etfw"
+                                            >@UNSDSN</a
+                                        >
+                                        <a
+                                            href="https://twitter.com/SDSNYouth?ref_src=twsrc%5Etfw"
+                                            >@SDSNYouth</a
+                                        >
+                                        <a
+                                            href="https://twitter.com/humanact_dk?ref_src=twsrc%5Etfw"
+                                            >@humanact_dk</a
+                                        >
+                                        <a
+                                            href="https://twitter.com/SDSNNE?ref_src=twsrc%5Etfw"
+                                            >@SDSNNE</a
+                                        >
+                                        <a href="https://t.co/DvAB2mOYDc"
+                                            >pic.twitter.com/DvAB2mOYDc</a
+                                        >
+                                    </p>
+                                    &mdash; SDSN Youth in Northern Europe
+                                    (@SDSNYouthinNE)
+                                    <a
+                                        href="https://twitter.com/SDSNYouthinNE/status/1067689659046797312?ref_src=twsrc%5Etfw"
+                                        >November 28, 2018</a
+                                    >
+                                </blockquote>
+                                <script
+                                    async
+                                    src="https://platform.twitter.com/widgets.js"
+                                    charset="utf-8"
+                                ></script>
                             </div>
-                        </section>
-                        <section>
-                                <header class="left-pane">
-                                    <h3>SDSN Youth Russia</h3>
-                                    <p>Move Humanity Events</p>
-                                </header>
-                                <div class="content">
-                                    <div class="gallery-full">
-                                            <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FSDSNRussia%2Fposts%2F722631918123703&width=500" width="500" height="881" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
-                                    </div>
-                                </div>
-                            </section>
+                        </div>
+                    </section>
+                    <section>
+                        <header class="left-pane">
+                            <h3>SDSN Youth Republic of Korea</h3>
+                            <p>Move Humanity Conference</p>
+                        </header>
+                        <div class="content">
+                            <div class="gallery-full">
+                                <blockquote
+                                    class="twitter-tweet"
+                                    data-lang="en"
+                                >
+                                    <p lang="en" dir="ltr">
+                                        On December 2nd, 88 participants from 15
+                                        institutions attended the
+                                        <a
+                                            href="https://twitter.com/hashtag/MoveHumanity?src=hash&amp;ref_src=twsrc%5Etfw"
+                                            >#MoveHumanity</a
+                                        >
+                                        conference organized by SDSN Korea in
+                                        the Korea University 🇰🇷. The panelists
+                                        discussed important topics such as
+                                        <a
+                                            href="https://twitter.com/hashtag/recycling?src=hash&amp;ref_src=twsrc%5Etfw"
+                                            >#recycling</a
+                                        >
+                                        ♻,
+                                        <a
+                                            href="https://twitter.com/hashtag/sustainability?src=hash&amp;ref_src=twsrc%5Etfw"
+                                            >#sustainability</a
+                                        >
+                                        🌲 and the
+                                        <a
+                                            href="https://twitter.com/hashtag/SDGs?src=hash&amp;ref_src=twsrc%5Etfw"
+                                            >#SDGs</a
+                                        >
+                                        🇺🇳
+                                        <a href="https://t.co/9o4NkEU7VU"
+                                            >pic.twitter.com/9o4NkEU7VU</a
+                                        >
+                                    </p>
+                                    &mdash; SDSN Youth (@SDSNYouth)
+                                    <a
+                                        href="https://twitter.com/SDSNYouth/status/1070057618276827137?ref_src=twsrc%5Etfw"
+                                        >December 4, 2018</a
+                                    >
+                                </blockquote>
+                                <script
+                                    async
+                                    src="https://platform.twitter.com/widgets.js"
+                                    charset="utf-8"
+                                ></script>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <header class="left-pane">
+                            <h3>SDSN Youth Turkey</h3>
+                            <p>Conference</p>
+                        </header>
+                        <div class="content">
+                            <div class="gallery">
+                                <blockquote
+                                    class="twitter-tweet"
+                                    data-lang="en"
+                                >
+                                    <p lang="en" dir="ltr">
+                                        The Target 2030: Saving the Future
+                                        (Hedef 2030: Geleceği Kurtarmak) was
+                                        held on Dec 2nd in Istanbul, Turkey, and
+                                        talked about the
+                                        <a
+                                            href="https://twitter.com/hashtag/SDGs?src=hash&amp;ref_src=twsrc%5Etfw"
+                                            >#SDGs</a
+                                        >
+                                        🌳,
+                                        <a
+                                            href="https://twitter.com/hashtag/MoveHumanity?src=hash&amp;ref_src=twsrc%5Etfw"
+                                            >#MoveHumanity</a
+                                        >
+                                        🌎 and
+                                        <a
+                                            href="https://twitter.com/hashtag/Volunteering?src=hash&amp;ref_src=twsrc%5Etfw"
+                                            >#Volunteering</a
+                                        >
+                                        🤝. Hundreds of people from all over
+                                        Turkey attended such special event 🇹🇷
+                                        <a href="https://t.co/6P49rSl7F2"
+                                            >pic.twitter.com/6P49rSl7F2</a
+                                        >
+                                    </p>
+                                    &mdash; SDSN Youth (@SDSNYouth)
+                                    <a
+                                        href="https://twitter.com/SDSNYouth/status/1069918313512386560?ref_src=twsrc%5Etfw"
+                                        >December 4, 2018</a
+                                    >
+                                </blockquote>
+                                <script
+                                    async
+                                    src="https://platform.twitter.com/widgets.js"
+                                    charset="utf-8"
+                                ></script>
+
+                                <blockquote
+                                    class="twitter-tweet"
+                                    data-lang="en"
+                                >
+                                    <p lang="en" dir="ltr">
+                                        On December 2nd, the
+                                        <a
+                                            href="https://twitter.com/hashtag/TOBB?src=hash&amp;ref_src=twsrc%5Etfw"
+                                            >#TOBB</a
+                                        >
+                                        Sustainable Development Solutions
+                                        Network Youth Academy-SDSN hosted a
+                                        great event on “Mandela 100 Years
+                                        Celebration” at the
+                                        <a
+                                            href="https://twitter.com/Tobbedu?ref_src=twsrc%5Etfw"
+                                            >@Tobbedu</a
+                                        >
+                                        (Economy and Technology University), in
+                                        Ankara 🇹🇷
+                                        <a
+                                            href="https://twitter.com/hashtag/MoveHumanity?src=hash&amp;ref_src=twsrc%5Etfw"
+                                            >#MoveHumanity</a
+                                        >
+                                        <a href="https://t.co/8nPGQ6eQN8"
+                                            >pic.twitter.com/8nPGQ6eQN8</a
+                                        >
+                                    </p>
+                                    &mdash; SDSN Youth (@SDSNYouth)
+                                    <a
+                                        href="https://twitter.com/SDSNYouth/status/1070293619721076737?ref_src=twsrc%5Etfw"
+                                        >December 5, 2018</a
+                                    >
+                                </blockquote>
+                                <script
+                                    async
+                                    src="https://platform.twitter.com/widgets.js"
+                                    charset="utf-8"
+                                ></script>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <header class="left-pane">
+                            <h3>SDSN Youth Andes Region</h3>
+                            <p>Workshops</p>
+                        </header>
+                        <div class="content">
+                            <div class="gallery-full">
+                                <blockquote
+                                    class="twitter-tweet"
+                                    data-lang="en"
+                                >
+                                    <p lang="en" dir="ltr">
+                                        On December 2nd a
+                                        <a
+                                            href="https://twitter.com/hashtag/MoveHumanity?src=hash&amp;ref_src=twsrc%5Etfw"
+                                            >#MoveHumanity</a
+                                        >
+                                        event was launched at Cuenca, Ecuador 🇪🇨
+                                        It was an amazing experience with
+                                        multiple organizations presenting their
+                                        jobs and young people supporting the
+                                        campaign.<br />A WYD pilot Workshop was
+                                        developed and will be replicated on
+                                        January 24th in Panama 🇵🇦
+                                        <a href="https://t.co/YxrJOTkIAL"
+                                            >pic.twitter.com/YxrJOTkIAL</a
+                                        >
+                                    </p>
+                                    &mdash; SDSN Youth (@SDSNYouth)
+                                    <a
+                                        href="https://twitter.com/SDSNYouth/status/1070646642410430464?ref_src=twsrc%5Etfw"
+                                        >December 6, 2018</a
+                                    >
+                                </blockquote>
+                                <script
+                                    async
+                                    src="https://platform.twitter.com/widgets.js"
+                                    charset="utf-8"
+                                ></script>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <header class="left-pane">
+                            <h3>SDSN Youth Great Lakes Region</h3>
+                            <p>SDG Financing Conference, Kigali Rwanda</p>
+                        </header>
+                        <div class="content">
+                            <div class="gallery-full">
+                                <blockquote
+                                    class="twitter-tweet"
+                                    data-lang="en"
+                                >
+                                    <p lang="en" dir="ltr">
+                                        A
+                                        <a
+                                            href="https://twitter.com/hashtag/MoveHumanity?src=hash&amp;ref_src=twsrc%5Etfw"
+                                            >#MoveHumanity</a
+                                        >
+                                        event was hosted on December 6th at the
+                                        Hilltop Hotel in Kigali, Rwanda, with
+                                        the theme: &quot;A campaign to close the
+                                        SDG Financing Gap in The Great
+                                        Lakes&quot; 🇷🇼
+                                        <a href="https://t.co/1JqnY3VINf"
+                                            >pic.twitter.com/1JqnY3VINf</a
+                                        >
+                                    </p>
+                                    &mdash; SDSN Youth (@SDSNYouth)
+                                    <a
+                                        href="https://twitter.com/SDSNYouth/status/1072098470071361538?ref_src=twsrc%5Etfw"
+                                        >December 10, 2018</a
+                                    >
+                                </blockquote>
+                                <script
+                                    async
+                                    src="https://platform.twitter.com/widgets.js"
+                                    charset="utf-8"
+                                ></script>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <header class="left-pane">
+                            <h3>SDSN Youth South East Asia</h3>
+                            <p>Move Humanity Events - Bhutan, Nepal</p>
+                        </header>
+                        <div class="content">
+                            <div class="gallery-full">
+                                <blockquote
+                                    class="twitter-tweet"
+                                    data-lang="en"
+                                >
+                                    <p lang="en" dir="ltr">
+                                        Yesterday, the Samtse College of
+                                        Education organized an event on the
+                                        <a
+                                            href="https://twitter.com/hashtag/MoveHumanity?src=hash&amp;ref_src=twsrc%5Etfw"
+                                            >#MoveHumanity</a
+                                        >
+                                        conference, &quot;Cleaning Campaign and
+                                        &quot;Street Night Show&quot;.<br />The
+                                        president, faculty members, students,
+                                        teachers and 60 different scout leaders
+                                        from all parts of Bhutan attended the
+                                        place 🇧🇹
+                                        <a href="https://t.co/N3JyGq5PCY"
+                                            >pic.twitter.com/N3JyGq5PCY</a
+                                        >
+                                    </p>
+                                    &mdash; SDSN Youth (@SDSNYouth)
+                                    <a
+                                        href="https://twitter.com/SDSNYouth/status/1069664001263591431?ref_src=twsrc%5Etfw"
+                                        >December 3, 2018</a
+                                    >
+                                </blockquote>
+                                <script
+                                    async
+                                    src="https://platform.twitter.com/widgets.js"
+                                    charset="utf-8"
+                                ></script>
+
+                                <blockquote
+                                    class="twitter-tweet"
+                                    data-lang="en"
+                                >
+                                    <p lang="und" dir="ltr">
+                                        <a
+                                            href="https://twitter.com/hashtag/MoveHumanity?src=hash&amp;ref_src=twsrc%5Etfw"
+                                            >#MoveHumanity</a
+                                        >
+                                        <a href="https://t.co/D389yEMdOB"
+                                            >pic.twitter.com/D389yEMdOB</a
+                                        >
+                                    </p>
+                                    &mdash; SDSN Youth (@SDSNYouth)
+                                    <a
+                                        href="https://twitter.com/SDSNYouth/status/1069508101122998274?ref_src=twsrc%5Etfw"
+                                        >December 3, 2018</a
+                                    >
+                                </blockquote>
+                                <script
+                                    async
+                                    src="https://platform.twitter.com/widgets.js"
+                                    charset="utf-8"
+                                ></script>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <header class="left-pane">
+                            <h3>SDSN Youth Sahel Region</h3>
+                            <p>Move Humanity Events</p>
+                        </header>
+                        <div class="content">
+                            <div class="gallery-full">
+                                <blockquote
+                                    class="twitter-tweet"
+                                    data-lang="en"
+                                >
+                                    <p lang="en" dir="ltr">
+                                        Thanks to
+                                        <a
+                                            href="https://twitter.com/humanact_dk?ref_src=twsrc%5Etfw"
+                                            >@humanact_dk</a
+                                        >,
+                                        <a
+                                            href="https://twitter.com/SDSNYOUTHSahel?ref_src=twsrc%5Etfw"
+                                            >@SDSNYOUTHSahel</a
+                                        >
+                                        hosted
+                                        <a
+                                            href="https://twitter.com/hashtag/MoveHumanity?src=hash&amp;ref_src=twsrc%5Etfw"
+                                            >#MoveHumanity</a
+                                        >
+                                        event that calls for immediate actions
+                                        towards the
+                                        <a
+                                            href="https://twitter.com/hashtag/SDGs?src=hash&amp;ref_src=twsrc%5Etfw"
+                                            >#SDGs</a
+                                        >. Youth around the globe are optimistic
+                                        about bringing a brighter future to the
+                                        generations to come! Learn more:
+                                        <a href="https://t.co/ojsIA6GmDf"
+                                            >https://t.co/ojsIA6GmDf</a
+                                        >
+                                        <a
+                                            href="https://twitter.com/djaffarshalchi?ref_src=twsrc%5Etfw"
+                                            >@djaffarshalchi</a
+                                        >
+                                        <a href="https://t.co/SRTXWtNaCq"
+                                            >pic.twitter.com/SRTXWtNaCq</a
+                                        >
+                                    </p>
+                                    &mdash; SDSN Youth (@SDSNYouth)
+                                    <a
+                                        href="https://twitter.com/SDSNYouth/status/1082726235745251328?ref_src=twsrc%5Etfw"
+                                        >January 8, 2019</a
+                                    >
+                                </blockquote>
+                                <script
+                                    async
+                                    src="https://platform.twitter.com/widgets.js"
+                                    charset="utf-8"
+                                ></script>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <header class="left-pane">
+                            <h3>SDSN Youth Philipines</h3>
+                            <p>Move Humanity Events</p>
+                        </header>
+                        <div class="content">
+                            <div class="gallery">
+                                <iframe
+                                    src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FSDSNYouthPH%2Fphotos%2Fa.1656886087972359%2F2163297753997854%2F%3Ftype%3D3&width=500"
+                                    width="500"
+                                    height="682"
+                                    style="border: none; overflow: hidden"
+                                    scrolling="no"
+                                    frameborder="0"
+                                    allowTransparency="true"
+                                    allow="encrypted-media"
+                                ></iframe>
+
+                                <iframe
+                                    src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FSDSNYouthPH%2Fphotos%2Fa.2163739950620301%2F2163741550620141%2F%3Ftype%3D3&width=500"
+                                    width="500"
+                                    height="682"
+                                    style="border: none; overflow: hidden"
+                                    scrolling="no"
+                                    frameborder="0"
+                                    allowTransparency="true"
+                                    allow="encrypted-media"
+                                ></iframe>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <header class="left-pane">
+                            <h3>SDSN Youth Nigeria</h3>
+                            <p>Move Humanity Events</p>
+                        </header>
+                        <div class="content">
+                            <div class="gallery">
+                                <blockquote
+                                    class="twitter-tweet"
+                                    data-lang="en"
+                                >
+                                    <p lang="en" dir="ltr">
+                                        It&#39;s a collective task and
+                                        responsibility to make the world a
+                                        better place. The summit released to the
+                                        world young &amp; passionate individuals
+                                        to make the world a better place and
+                                        achieve the
+                                        <a
+                                            href="https://twitter.com/hashtag/GlobalGoals?src=hash&amp;ref_src=twsrc%5Etfw"
+                                            >#GlobalGoals</a
+                                        ><a
+                                            href="https://twitter.com/hashtag/MoveHumanity?src=hash&amp;ref_src=twsrc%5Etfw"
+                                            >#MoveHumanity</a
+                                        >
+                                        <a
+                                            href="https://twitter.com/hashtag/SDGs?src=hash&amp;ref_src=twsrc%5Etfw"
+                                            >#SDGs</a
+                                        ><a
+                                            href="https://twitter.com/hashtag/Goal2030?src=hash&amp;ref_src=twsrc%5Etfw"
+                                            >#Goal2030</a
+                                        >
+                                        <a href="https://t.co/M2ytbXcxMa"
+                                            >pic.twitter.com/M2ytbXcxMa</a
+                                        >
+                                    </p>
+                                    &mdash; SDSN Youth Nigeria (@SDSNYouthNG)
+                                    <a
+                                        href="https://twitter.com/SDSNYouthNG/status/1069981224490450944?ref_src=twsrc%5Etfw"
+                                        >December 4, 2018</a
+                                    >
+                                </blockquote>
+                                <script
+                                    async
+                                    src="https://platform.twitter.com/widgets.js"
+                                    charset="utf-8"
+                                ></script>
+
+                                <blockquote
+                                    class="twitter-tweet"
+                                    data-lang="en"
+                                >
+                                    <p lang="en" dir="ltr">
+                                        Prof. Dele Layiwola charged participants
+                                        on the need to change the status quo
+                                        &amp; take responsibilities for the
+                                        change we need. He emphasized the need
+                                        to draw lessons from the life of Nelson
+                                        Mandela who against all odds fought for
+                                        the freedom of South Africa.
+                                        <a
+                                            href="https://twitter.com/hashtag/SDGs?src=hash&amp;ref_src=twsrc%5Etfw"
+                                            >#SDGs</a
+                                        >
+                                        <a
+                                            href="https://twitter.com/hashtag/MoveHumanity?src=hash&amp;ref_src=twsrc%5Etfw"
+                                            >#MoveHumanity</a
+                                        >
+                                        <a href="https://t.co/lyKBvqoAS8"
+                                            >pic.twitter.com/lyKBvqoAS8</a
+                                        >
+                                    </p>
+                                    &mdash; SDSN Youth Nigeria (@SDSNYouthNG)
+                                    <a
+                                        href="https://twitter.com/SDSNYouthNG/status/1070004228054237184?ref_src=twsrc%5Etfw"
+                                        >December 4, 2018</a
+                                    >
+                                </blockquote>
+                                <script
+                                    async
+                                    src="https://platform.twitter.com/widgets.js"
+                                    charset="utf-8"
+                                ></script>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <header class="left-pane">
+                            <h3>SDSN Youth Russia</h3>
+                            <p>Move Humanity Events</p>
+                        </header>
+                        <div class="content">
+                            <div class="gallery-full">
+                                <iframe
+                                    src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FSDSNRussia%2Fposts%2F722631918123703&width=500"
+                                    width="500"
+                                    height="881"
+                                    style="border: none; overflow: hidden"
+                                    scrolling="no"
+                                    frameborder="0"
+                                    allowTransparency="true"
+                                    allow="encrypted-media"
+                                ></iframe>
+                            </div>
+                        </div>
+                    </section>
                 </div>
             </section>
-    
         </div>
-        
+
         <!-- Footer -->
         <footer id="footer">
-            <div class="inner">
-                {{ partial "financing-footer.html" . }}
-            </div>
+            <div class="inner">{{ partial "financing-footer.html" . }}</div>
         </footer>
-		<!-- Scripts -->
-		{{ partial "scripts.html" . }}
-  </body>
+        <!-- Scripts -->
+        {{ partial "scripts.html" . }}
+    </body>
 </html>

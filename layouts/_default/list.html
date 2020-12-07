@@ -6,45 +6,45 @@
         {{ partial "head.html" . }}
         {{ template "_internal/google_analytics.html" . }}
     </head>
+
     <body>
-            <div id="wrapper">
-                    <!-- Header -->
-					<header id="header">
-                            <div class="inner">
-                                    {{ partial "header.html" . }}
-                                    {{ partial "back-button.html" . }}
-                            </div>
-                    </header>
-                    {{ partial "menu.html" . }}
-                    <div id="main">
-                        <div class="single-inner">
-                                <div class="list-pages">
-                                    <div class="list-title">
-                                        {{.Content}}
-                                    </div>
-                                        
-                                    {{ range sort .Pages.ByDate }}
-                                    <ul>
-                                        <div class="list-item-title">
-                                                <b><a href="{{.URL}}">{{.Title}}</a></b>
-                                        </div>
-                                            {{ .Render "summary" }}
-                                    </ul>
-                                    {{ end }}
+        <div id="wrapper">
+            <!-- Header -->
+            <header id="header">
+                <div class="inner">
+                    {{ partial "header.html" . }}
+                    {{ partial "back-button.html" . }}
+                </div>
+            </header>
+            {{ partial "menu.html" . }}
+            <div id="main">
+                <div class="single-inner">
+                    <div class="list-pages">
+                        <div class="list-title">
+                            {{ .Content }}
+                        </div>
+
+                        {{ range sort .Pages.ByDate }}
+                            <ul>
+                                <div class="list-item-title">
+                                    <b><a href="{{ .URL }}">{{ .Title }}</a></b>
                                 </div>
-                        </div>
+                                {{ .Render "summary" }}
+                            </ul>
+                        {{ end }}
                     </div>
-
-                    <!-- Footer -->
-                    <footer id="footer">
-                        <div class="inner">
-                                {{ partial "footer.html" . }}
-                        </div>
-                    </footer>
-                </div>  
+                </div>
             </div>
-      <!-- Scripts -->
-        {{ partial "scripts.html" . }}
 
+            <!-- Footer -->
+            <footer id="footer">
+                <div class="inner">
+                    {{ partial "footer.html" . }}
+                </div>
+            </footer>
+        </div>
+
+        <!-- Scripts -->
+        {{ partial "scripts.html" . }}
     </body>
 </html>

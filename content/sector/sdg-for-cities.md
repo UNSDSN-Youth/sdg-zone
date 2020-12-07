@@ -1,17 +1,16 @@
 ---
-title: "How can cities contribute to SDGs?"
+title: 'How can cities contribute to SDGs?'
 date: 2018-06-12T13:00:29+11:00
 draft: false
 ---
 
 {{< padding >}}
 
-**SDG Cities Guide**
----
+## **SDG Cities Guide**
 
 {{< images src="/images/blog-images/sdgcitiesguide.png" >}}
 
-Cities and human settlements will be key to achieving the global SDGs. The SDGs came into effect in a world that is increasingly urban, with a little over half the global population now living in cities. Urbanization has thrown up some of the world’s greatest development challenges, but it also has tremendous opportunities for advancing sustainable development. 
+Cities and human settlements will be key to achieving the global SDGs. The SDGs came into effect in a world that is increasingly urban, with a little over half the global population now living in cities. Urbanization has thrown up some of the world’s greatest development challenges, but it also has tremendous opportunities for advancing sustainable development.
 
 {{< button link="https://sdgcities.guide/" text="SDG Cities Guide">}}
 
@@ -21,8 +20,7 @@ Cities and human settlements will be key to achieving the global SDGs. The SDGs 
 
 {{< padding >}}
 
-**Habitat3**
----
+## **Habitat3**
 
 {{< images src="/images/blog-images/HABITAT3.png" >}}
 

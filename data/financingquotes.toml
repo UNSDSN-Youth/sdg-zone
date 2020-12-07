@@ -7,6 +7,7 @@ quote3 = "you have to "
 quote4 = "give back"
 quote5 = "."
 image = "/images/famous-quote-images/oprah-winfrey.jpg"
+
 [[quotes]]
 name = "Warren Buffet"
 title = ""
@@ -16,6 +17,7 @@ quote3 = "you "
 quote4 = "owe it "
 quote5 = "to the rest of humanity to think about the other 99 per cent."
 image = "/images/famous-quote-images/warren-buffet.jpg"
+
 [[quotes]]
 name = "Jack Ma"
 title = ""
@@ -25,6 +27,7 @@ quote3 = "[entrepreneurs] to participate and "
 quote4 = "make a contribution "
 quote5 = "to your home [educational resources]"
 image = "/images/famous-quote-images/jack-ma.jpg"
+
 [[quotes]]
 name = "Bill Gates"
 title = ""
@@ -34,6 +37,7 @@ quote3 = " to "
 quote4 = "invest "
 quote5 = "in addressing inequity."
 image = "/images/famous-quote-images/bill-gates.jpg"
+
 [[quotes]]
 name = "Richard Branson"
 title = ""

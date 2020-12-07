@@ -7,6 +7,7 @@ quote3 = " to the most disenfranchised people on earth. Our children "
 quote4 = "have the right"
 quote5 = " to equal opportunities; to thrive, to be happy, healthy, and safe."
 image = "images/famous-quote-images/shakira.jpg"
+
 [[quotes]]
 name = "Leonardo DiCaprio"
 title = "Actor & UN Messenger of Peace"
@@ -16,6 +17,7 @@ quote3 = "and it now incumbent upon all of us, all of you, activists, young and 
 quote4 = "The planet can no longer wait"
 quote5 = ", the underprivileged can no longer be ignored."
 image = "images/famous-quote-images/leonardo-dicaprio.jpg"
+
 [[quotes]]
 name = "Malala Yousafzai"
 title = "Activist & Nobel Peace Prize Laureate"
@@ -25,6 +27,7 @@ quote3 = "Promise that "
 quote4 = "every child "
 quote5 = "will have the right to safe, free and quality primary and secondary education."
 image = "images/famous-quote-images/malala-yousafzai.jpg"
+
 [[quotes]]
 name = "Desmond Tutu"
 title = "Activist & Nobel Peace Prize Laureate"
@@ -34,6 +37,7 @@ quote3 = "on the planet - is itself exacerbated by conflict, competition for res
 quote4 = "everything is connected. "
 quote5 = "In order to address any major cause of human suffering, we have to work together across many fronts."
 image = "images/famous-quote-images/desmund-tu-tu.jpg"
+
 [[quotes]]
 name = "Zhou Xun"
 title = "Actress & UNDP Goodwill Ambassador"
@@ -43,6 +47,7 @@ quote3 = "for future generations...These "
 quote4 = "goals are for everyone, "
 quote5 = "everywhere."
 image = "images/famous-quote-images/zhou-xun.jpg"
+
 [[quotes]]
 name = "His Holiness, Pope Francis"
 title = "Pope of the Catholic Church"
@@ -52,6 +57,7 @@ quote3 = "The future demands of us critical and global decisions in the face of 
 quote4 = "increase the number of the excluded "
 quote5 = "and those in need."
 image = "images/famous-quote-images/pope-francis.jpg"
+
 [[quotes]]
 name = "Emma Watson"
 title = "Actress & UN Women Goodwill Ambassador"
@@ -61,6 +67,7 @@ quote3 = "and "
 quote4 = "I really need your help. "
 quote5 = "We need to fight global inequality, end extreme poverty, and respect our planet."
 image = "images/famous-quote-images/emma-watson.jpg"
+
 [[quotes]]
 name = "Stephen Hawking"
 title = "Physicist"
@@ -70,6 +77,7 @@ quote3 = "We "
 quote4 = "cannot "
 quote5 = "remain looking inwards at ourselves on a small and increasingly polluted and overcrowded planet."
 image = "images/famous-quote-images/stephen-hawking.jpg"
+
 [[quotes]]
 name = "Jane Goodall"
 title = "Primatologist &, UN Messenger of Peace"
@@ -79,6 +87,7 @@ quote3 = "It is "
 quote4 = "impossible. "
 quote5 = "When you run out of food and water, the wars begin again."
 image = "images/famous-quote-images/jane-goodall.jpg"
+
 [[quotes]]
 name = "Jet Li"
 title = "Martial Artist Actor & WHO Goodwill Ambassador"
@@ -88,6 +97,7 @@ quote3 = ", not everyone can change the world in the same way and "
 quote4 = "few individuals can change it by themselves"
 quote5 = "."
 image = "images/famous-quote-images/jet-li.jpg"
+
 [[quotes]]
 name = "Amina Mohammed"
 title = "Deputy Secretary-General of the United Nations"
@@ -97,6 +107,7 @@ quote3 = ", provide a better life for women and men and "
 quote4 = "build a firm foundation for stability "
 quote5 = "and peace in all societies, everywhere."
 image = "images/famous-quote-images/amina-j-mohammed.jpg"
+
 [[quotes]]
 name = "Hugh Jackman"
 title = "Actor & Activist"
@@ -106,6 +117,7 @@ quote3 = ". It is "
 quote4 = "man-made and solvable"
 quote5 = "."
 image = "images/famous-quote-images/hugh-jackman.jpg"
+
 [[quotes]]
 name = "Forest Whitaker"
 title = "Actor & SDG Advocate"
@@ -115,6 +127,7 @@ quote3 = "in ensuring that the benefits of our modernizing world are "
 quote4 = "shared among all nations and people "
 quote5 = "and not just by the privileged few."
 image = "images/famous-quote-images/forest-whitaker.jpg"
+
 [[quotes]]
 name = "Bill Gates"
 title = "Co-Founder, Microsoft Corporation"

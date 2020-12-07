@@ -1,5 +1,5 @@
 ---
-title: "How can universities contribute to SDGs?"
+title: 'How can universities contribute to SDGs?'
 date: 2018-06-12T17:00:29+11:00
 draft: false
 ---
